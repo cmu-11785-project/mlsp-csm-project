@@ -1,0 +1,32 @@
+[
+    {
+        "path": "mythicinfinity/libritts",
+        "name": "clean",
+        "text_column_name": "text_normalized",
+        "audio_col": "audio",
+        "skip": true,
+        "splits": [
+            "dev.clean",
+            "test.clean",
+            "train.clean.100",
+            "train.clean.360"
+        ]
+    },
+    {
+        "path": "mythicinfinity/libritts",
+        "name": "other",
+        "text_column_name": "text_normalized",
+        "audio_col": "audio",
+        "skip": true,
+        "splits": []
+    },
+    {
+        "path": "speechcolab/gigaspeech",
+        "audio_col": "audio",
+        "text_column_name": "text",
+        "name": "xs",
+        "id_col": "segment_id",
+        "splits": ["train", "validation", "test"],
+        "skip": false
+    }
+]
