@@ -54,7 +54,7 @@ class RedimnetInference():
 
 if __name__ == "__main__":
     #input_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/data/speechcolab/gigaspeech/xs/test/wavs" # original wavs
-    input_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/inference/output/xs/test/resampled"
+    input_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/neutts/output/xs/test/resampled"
     #out_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/redimnet/output/original"
     out_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/redimnet/output/inference"
     redimnet = RedimnetInference(input_dir=input_dir, output_dir=out_dir)

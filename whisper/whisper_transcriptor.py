@@ -46,7 +46,7 @@ class WhisperTranscriptor:
             f.write(result["text"])
 
 if __name__ == "__main__":
-    input_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/inference/output/libritts/clean/dev.clean"
+    input_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/neutts/output/libritts/clean/dev.clean"
     out_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/whisper/output/libritts/clean/dev.clean"
     transcriptor = WhisperTranscriptor(model_name="base", input_dir=input_dir, out_dir=out_dir)
     transcriptor.transcribe_all()
