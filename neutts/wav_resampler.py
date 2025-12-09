@@ -64,8 +64,8 @@ class AudioResampler:
 # --- Example Usage ---
 if __name__ == "__main__":
     # Define your folders
-    input_folder = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/inference/output/xs/test/raw"
-    output_folder = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/inference/output/xs/test/resampled"
+    input_folder = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/neutts/output/xs/test/raw"
+    output_folder = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/neutts/output/xs/test/resampled"
 
     os.makedirs(input_folder, exist_ok=True)
     os.makedirs(output_folder, exist_ok=True)

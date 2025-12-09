@@ -6,7 +6,7 @@ import sys
 parent_dir = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(parent_dir))
 
-from inference.basic_streaming_example import main
+from neutts.basic_streaming_example import main
 
 def process_folder(text_folder, codes_folder, backbone, output_folder='neutts_outputs', start_value=0):
     """
@@ -102,7 +102,7 @@ if __name__ == "__main__":
         default="neuphonic/neutts-air-q8-gguf",
         help="Huggingface repo containing the backbone checkpoint"
     )
-    output_folder = f"/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/inference/output/libritts/clean/{split}"
+    output_folder = f"/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/neutts/output/libritts/clean/{split}"
     os.makedirs(output_folder, exist_ok=True)
     parser.add_argument(
         "--output_folder",
