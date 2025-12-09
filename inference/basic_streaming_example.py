@@ -3,7 +3,7 @@ from pathlib import Path
 import soundfile as sf
 import torch
 import numpy as np
-from neuttsair.neutts import NeuTTSAir
+from neutts import NeuTTSAir
 import soundfile as sf
 import os
 from tqdm import tqdm

@@ -1,6 +1,7 @@
 from datasets import load_dataset
 import sys
 import os
+import re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config_manager import ConfigManager
 
@@ -67,6 +68,8 @@ class DatasetCleaner:
                     processed_text = self.normalize_text(text)
                 elif action == "capitalize_remove_punctuation":
                     processed_text = self.capitalize_remove_punctuation(text)
+                elif action == "extreme":
+                    processed_text = self.extreme_normalize(text)
                 elif action == "both":
                     processed_text = self.capitalize_remove_punctuation(text)
                     processed_text = self.normalize_text(processed_text)
@@ -137,16 +140,27 @@ class DatasetCleaner:
 
         return text
 
+    def extreme_normalize(self, text):
+        # 1. Convert to lowercase
+        text = text.lower()
+        
+        # 2. Use Regex to remove anything that isn't a word character or whitespace
+        # r'[^\w\s]' matches any character that is NOT alphanumeric or a space
+        text = re.sub(r'[^\w\s]', '', text)
+        
+        return " ".join(text.split())
+
 # Example usage
 if __name__ == "__main__":
-    cleaner = DatasetCleaner(output_base_path="/ocean/projects/cis220031p/shared/11785-project/neutts-air/data")
+    cleaner = DatasetCleaner(output_base_path="/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/encoding/output/libritts/clean/dev.clean/original/normalized")
     #cleaner.process_dataset()
     #normalized_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/data/speechcolab/gigaspeech/xs/test/normalized_text"
     #clean_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/data/speechcolab/gigaspeech/xs/test/clean_text"
 
-    normalized_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/whisper/output/xs/test/text_normalized"
-    clean_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/whisper/output/xs/test/text"
+    input_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/data/mythicinfinity/libritts/clean/dev.clean/text"
+    output_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/encoding/output/libritts/clean/dev.clean/original/normalized"
+
     cleaner.process_files_in_directory(
-        input_dir=clean_dir,
-        output_dir=normalized_dir,
-        action="normalize_text")
+        input_dir=input_dir,
+        output_dir=output_dir,
+        action="extreme")

@@ -1,6 +1,8 @@
 # Data
 whisper/output
 inference/output
+redimnet/output
+encoding/output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

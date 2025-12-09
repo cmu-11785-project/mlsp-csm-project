@@ -6,7 +6,7 @@ import sys
 parent_dir = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(parent_dir))
 
-from examples.basic_streaming_example import main
+from inference.basic_streaming_example import main
 
 def process_folder(text_folder, codes_folder, backbone, output_folder='neutts_outputs', start_value=0):
     """
@@ -49,6 +49,13 @@ def process_folder(text_folder, codes_folder, backbone, output_folder='neutts_ou
         with open(text_file, "r") as f:
             input_text = f.read().strip()
 
+        # Skip if wav file already exists in output folder
+        wav_file = f"{output_folder}/{text_file.stem}.wav"
+        print(f"Output wav file will be saved to: {wav_file}")
+        if os.path.isfile(wav_file):
+                print(f"Output wav file already exists for {text_file.name}, skipping...")
+                continue
+
         print(f"\n{'='*60}")
         print(f"Processing: {text_file.name}")
         print(f"Text file: {text_file}")
@@ -72,21 +79,21 @@ def process_folder(text_folder, codes_folder, backbone, output_folder='neutts_ou
 
 
 if __name__ == "__main__":
-    gigaspeech_data_folder = "data/speechcolab/gigaspeech"
-    gigaspeech_split = "xs/test"
+    data_folder = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/data/mythicinfinity/libritts/clean"
+    split = "dev.clean"
     parser = argparse.ArgumentParser(
         description="Batch process TTS for multiple files"
     )
     parser.add_argument(
         "--text_folder",
         type=str,
-        default=f"../{gigaspeech_data_folder}/{gigaspeech_split}/clean_text",
+        default=f"{data_folder}/{split}/text",
         help="Folder containing text files"
     )
     parser.add_argument(
         "--codes_folder",
         type=str,
-        default=f"../{gigaspeech_data_folder}/{gigaspeech_split}/codes",
+        default=f"{data_folder}/{split}/codes",
         help="Folder containing code files (.pt)"
     )
     parser.add_argument(
@@ -95,7 +102,7 @@ if __name__ == "__main__":
         default="neuphonic/neutts-air-q8-gguf",
         help="Huggingface repo containing the backbone checkpoint"
     )
-    output_folder = f"/ocean/projects/cis220031p/shared/11785-project/neutts-air/inference/output/{gigaspeech_split}"
+    output_folder = f"/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/inference/output/libritts/clean/{split}"
     os.makedirs(output_folder, exist_ok=True)
     parser.add_argument(
         "--output_folder",
@@ -111,5 +118,5 @@ if __name__ == "__main__":
         codes_folder=args.codes_folder,
         backbone=args.backbone,
         output_folder=args.output_folder,
-        start_value=369
+        start_value=0
     )

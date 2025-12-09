@@ -24,19 +24,29 @@ class WhisperTranscriptor:
                 continue
             self.transcribe(audio_file)
 
+        in_len = len(os.listdir(self.input_dir))
+        out_len = len(os.listdir(self.out_dir))
+
+        assert in_len == out_len, f"Input {in_len} and output {out_len} lengths are not equal"
+        print(f"Input {in_len} output {out_len} lengths are equal")
+
     def transcribe(self, audio_path):
+        out_file = Path(f"{Path(self.out_dir) / audio_path.stem}.txt")
+        if out_file.is_file():
+            print(f"Skipping already transcribed file {out_file.as_posix()}")
+            return
 
         # Transcribe a WAV file
         result = self.model.transcribe(audio_path.as_posix())
 
         # Save to file
-        out_file = f"{Path(self.out_dir) / audio_path.stem}.txt"
+
         print(out_file) #result["text"])
-        with open(out_file, "w") as f:
+        with open(out_file.as_posix(), "w") as f:
             f.write(result["text"])
 
 if __name__ == "__main__":
-    input_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/data/speechcolab/gigaspeech/xs/test/wavs"
-    out_dir = "/ocean/projects/cis220031p/shared/11785-project/neutts-air/whisper/output/xs/test/original/text"
+    input_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/inference/output/libritts/clean/dev.clean"
+    out_dir = "/ocean/projects/cis220031p/shared/11785-project/mlsp-csm-project/whisper/output/libritts/clean/dev.clean"
     transcriptor = WhisperTranscriptor(model_name="base", input_dir=input_dir, out_dir=out_dir)
     transcriptor.transcribe_all()
