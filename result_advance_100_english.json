@@ -1,0 +1,835 @@
+{
+  "summary_metrics": {
+    "whisper": {
+      "wer": 4.353609888734825,
+      "cer": 1.7784148746188655,
+      "sub_rate": 3.007713072493304,
+      "del_rate": 0.5401533964410352,
+      "ins_rate": 8.959312654183389
+    },
+    "gemini": {
+      "wer": 3.5132155001019223,
+      "cer": 1.549957455554055,
+      "sub_rate": 2.6001330339138664,
+      "del_rate": 0.3676279207335108,
+      "ins_rate": 8.199023779837447
+    },
+    "judge": {
+      "wer": 5.114133632547662,
+      "cer": 2.454615516672697,
+      "sub_rate": 3.694491105411897,
+      "del_rate": 1.2187653341533102,
+      "ins_rate": 8.110001982920913
+    },
+    "nemo": {
+      "wer": 100.0,
+      "cer": 100.0,
+      "sub_rate": 0.0,
+      "del_rate": 0.0,
+      "ins_rate": 0.0
+    }
+  },
+  "transcriptions": [
+    {
+      "file": "1089-134686-0000.flac",
+      "ref": "HE HOPED THERE WOULD BE STEW FOR DINNER TURNIPS AND CARROTS AND BRUISED POTATOES AND FAT MUTTON PIECES TO BE LADLED OUT IN THICK PEPPERED FLOUR FATTENED SAUCE",
+      "whisper_improved": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered, flour-fattened sauce.",
+      "gemini_clean": "He hoped there would be stew for dinner turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick peppered flower fattened sauce",
+      "gemini_clean_judge": "He hoped there would be stew for dinner, turnips and carrots and bruised potatoes and fat mutton pieces to be ladled out in thick, peppered, flour-fattened sauce.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0001.flac",
+      "ref": "STUFF IT INTO YOU HIS BELLY COUNSELLED HIM",
+      "whisper_improved": "\"'Stuff it into you,' his belly counseled him.",
+      "gemini_clean": "Stuff it into you his belly counseled him",
+      "gemini_clean_judge": "\"Stuff it into you,\" his belly counseled him.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0002.flac",
+      "ref": "AFTER EARLY NIGHTFALL THE YELLOW LAMPS WOULD LIGHT UP HERE AND THERE THE SQUALID QUARTER OF THE BROTHELS",
+      "whisper_improved": "After early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels.",
+      "gemini_clean": "After early nightfall the yellow lamps would light up here and there the squalid quarter of the brothels",
+      "gemini_clean_judge": "After early nightfall, the yellow lamps would light up here and there in the squalid quarter of the brothels.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0003.flac",
+      "ref": "HELLO BERTIE ANY GOOD IN YOUR MIND",
+      "whisper_improved": "\"'Hello, Bertie. Any good in your mind?'",
+      "gemini_clean": "Hello Bertie any good in your mind",
+      "gemini_clean_judge": "Hi Bertie. Anything good on your mind?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0004.flac",
+      "ref": "NUMBER TEN FRESH NELLY IS WAITING ON YOU GOOD NIGHT HUSBAND",
+      "whisper_improved": "Number 10. Fresh Nelly is waiting on you. Good night, husband.",
+      "gemini_clean": "Number ten Fresh Nelly is waiting on you Good night husband",
+      "gemini_clean_judge": "Number 10. Fresh Nelly is waiting on you. Good night, husband.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0005.flac",
+      "ref": "THE MUSIC CAME NEARER AND HE RECALLED THE WORDS THE WORDS OF SHELLEY'S FRAGMENT UPON THE MOON WANDERING COMPANIONLESS PALE FOR WEARINESS",
+      "whisper_improved": "the music came nearer and he recalled the words the words of shelley's fragment upon the moon wandering companionless pale for weariness",
+      "gemini_clean": "The music came nearer and he recalled the words the words of Shelleys fragment upon the moon wandering companionless pale for weariness",
+      "gemini_clean_judge": "The music came nearer and he recalled the words of Shelley's fragment upon the moon, wandering, companionless, pale for weariness.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0006.flac",
+      "ref": "THE DULL LIGHT FELL MORE FAINTLY UPON THE PAGE WHEREON ANOTHER EQUATION BEGAN TO UNFOLD ITSELF SLOWLY AND TO SPREAD ABROAD ITS WIDENING TAIL",
+      "whisper_improved": "the dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad its widening tail",
+      "gemini_clean": "The dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad its widening tail",
+      "gemini_clean_judge": "The dull light fell more faintly upon the page whereon another equation began to unfold itself slowly and to spread abroad its widening tail.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0007.flac",
+      "ref": "A COLD LUCID INDIFFERENCE REIGNED IN HIS SOUL",
+      "whisper_improved": "A cold, lucid indifference reigned in his soul.",
+      "gemini_clean": "a cold lucid indifference reigned in his soul",
+      "gemini_clean_judge": "A cold, lucid indifference reigned in his soul.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0008.flac",
+      "ref": "THE CHAOS IN WHICH HIS ARDOUR EXTINGUISHED ITSELF WAS A COLD INDIFFERENT KNOWLEDGE OF HIMSELF",
+      "whisper_improved": "The chaos in which his ardor extinguished itself was a cold, indifferent knowledge of himself,",
+      "gemini_clean": "the chaos in which his ardor extinguished itself was a cold indifferent knowledge of himself",
+      "gemini_clean_judge": "The chaos in which his ardor extinguished itself was a cold, indifferent knowledge of himself.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0009.flac",
+      "ref": "AT MOST BY AN ALMS GIVEN TO A BEGGAR WHOSE BLESSING HE FLED FROM HE MIGHT HOPE WEARILY TO WIN FOR HIMSELF SOME MEASURE OF ACTUAL GRACE",
+      "whisper_improved": "At most, by an alms given to a beggar whose blessing he fled from, he might hope wearily to win for himself some measure of actual grace.",
+      "gemini_clean": "at most by an alms given to a beggar whose blessing he fled from he might hope wearily to win for himself some measure of actual grace",
+      "gemini_clean_judge": "At most, by an alms given to a beggar whose blessing he fled from, he might hope wearily to win for himself some measure of actual grace.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0010.flac",
+      "ref": "WELL NOW ENNIS I DECLARE YOU HAVE A HEAD AND SO HAS MY STICK",
+      "whisper_improved": "\"'Well now, Ennis, I declare you have a head and so has my stick.'",
+      "gemini_clean": "Well now Ennis I declare you have a head and so has my stick",
+      "gemini_clean_judge": "Well now, Ennis, I declare you have a head and so has my stick.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0011.flac",
+      "ref": "ON SATURDAY MORNINGS WHEN THE SODALITY MET IN THE CHAPEL TO RECITE THE LITTLE OFFICE HIS PLACE WAS A CUSHIONED KNEELING DESK AT THE RIGHT OF THE ALTAR FROM WHICH HE LED HIS WING OF BOYS THROUGH THE RESPONSES",
+      "whisper_improved": "on saturday mornings when the sodality met in the chapel to recite the little office his place was a cushioned kneeling desk at the right of the altar from which he led his wing of boys through the responses responses.",
+      "gemini_clean": "On Saturday mornings when the sodality met in the chapel to recite the little office his place was a cushioned kneeling desk at the right of the altar from which he led his wing of boys through the responses",
+      "gemini_clean_judge": "On Saturday mornings, when the sodality met in the chapel to recite the Little Office, his place was a cushioned kneeling desk at the right of the altar from which he led his wing of boys through the responses.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0012.flac",
+      "ref": "HER EYES SEEMED TO REGARD HIM WITH MILD PITY HER HOLINESS A STRANGE LIGHT GLOWING FAINTLY UPON HER FRAIL FLESH DID NOT HUMILIATE THE SINNER WHO APPROACHED HER",
+      "whisper_improved": "her eyes seemed to regard him with mild pity her holiness a strange light glowing faintly upon her frail flesh did not humiliate the sinner who approached her Thank you.",
+      "gemini_clean": "Her eyes seemed to regard him with mild pity her holiness a strange light glowing faintly upon her frail flesh did not humiliate the sinner who approached her",
+      "gemini_clean_judge": "Her eyes seemed to regard him with mild pity; her holiness, a strange light glowing faintly upon her frail flesh, did not humiliate the sinner who approached her.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0013.flac",
+      "ref": "IF EVER HE WAS IMPELLED TO CAST SIN FROM HIM AND TO REPENT THE IMPULSE THAT MOVED HIM WAS THE WISH TO BE HER KNIGHT",
+      "whisper_improved": "if ever he was impelled to cast sin from him and to repent the impulse that moved him was the wish to be her knight",
+      "gemini_clean": "If ever he was impelled to cast sin from him and to repent the impulse that moved him was the wish to be her knight",
+      "gemini_clean_judge": "If ever he was impelled to cast sin from himself and to repent, the impulse that moved him was the wish to be her knight.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0014.flac",
+      "ref": "HE TRIED TO THINK HOW IT COULD BE",
+      "whisper_improved": "He tried to think how it could be",
+      "gemini_clean": "he tried to think how it could be",
+      "gemini_clean_judge": "He tried to think how it could be.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0015.flac",
+      "ref": "BUT THE DUSK DEEPENING IN THE SCHOOLROOM COVERED OVER HIS THOUGHTS THE BELL RANG",
+      "whisper_improved": "but the dusk, deepening in the schoolroom, covered over his thoughts. The bell rang.",
+      "gemini_clean": "but the dusk deepening in the schoolroom covered over his thoughts the bell rang",
+      "gemini_clean_judge": "But the dusk deepening in the schoolroom covered over his thoughts. The bell rang.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0016.flac",
+      "ref": "THEN YOU CAN ASK HIM QUESTIONS ON THE CATECHISM DEDALUS",
+      "whisper_improved": "Then you can ask him questions on the catechism, Daedalus.",
+      "gemini_clean": "then you can ask him questions on the catechism dedalus",
+      "gemini_clean_judge": "Then you can ask him questions on the catechism, Daedalus.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0017.flac",
+      "ref": "STEPHEN LEANING BACK AND DRAWING IDLY ON HIS SCRIBBLER LISTENED TO THE TALK ABOUT HIM WHICH HERON CHECKED FROM TIME TO TIME BY SAYING",
+      "whisper_improved": "Stephen, leaning back and drawing idly on his scribbler, listened to the talk about him which Heron checked from time to time by saying,",
+      "gemini_clean": "Stephen leaning back and drawing idly on his scribbler listened to the talk about him which Heron checked from time to time by saying",
+      "gemini_clean_judge": "Stephen, leaning back and drawing idly on his scribbler, listened to the talk about him which Heron checked from time to time by saying...",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0018.flac",
+      "ref": "IT WAS STRANGE TOO THAT HE FOUND AN ARID PLEASURE IN FOLLOWING UP TO THE END THE RIGID LINES OF THE DOCTRINES OF THE CHURCH AND PENETRATING INTO OBSCURE SILENCES ONLY TO HEAR AND FEEL THE MORE DEEPLY HIS OWN CONDEMNATION",
+      "whisper_improved": "it was strange too that he found an arid pleasure in following up to the end the rigid lines of the doctrines of the church and penetrating into obscure silences only to hear and feel the more deeply his own condemnation Thank you.",
+      "gemini_clean": "It was strange too that he found an arid pleasure in following up to the end the rigid lines of the doctrines of the church and penetrating into obscure silences only to hear and feel the more deeply his own condemnation",
+      "gemini_clean_judge": "It was strange, too, that he found an arid pleasure in following up to the end the rigid lines of the doctrines of the church and penetrating into obscure silences, only to hear and feel the more deeply his own condemnation.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0019.flac",
+      "ref": "THE SENTENCE OF SAINT JAMES WHICH SAYS THAT HE WHO OFFENDS AGAINST ONE COMMANDMENT BECOMES GUILTY OF ALL HAD SEEMED TO HIM FIRST A SWOLLEN PHRASE UNTIL HE HAD BEGUN TO GROPE IN THE DARKNESS OF HIS OWN STATE",
+      "whisper_improved": "The sentence of St. James, which says that he who offends against one commandment becomes guilty of all, had seemed to him first a swollen phrase, until he had begun to grope in the darkness of his own state.",
+      "gemini_clean": "The sentence of Saint James which says that he who offends against one commandment becomes guilty of all had seemed to him first a swollen phrase until he had begun to grope in the darkness of his own state",
+      "gemini_clean_judge": "The sentence of St. James, which says that he who offends against one commandment becomes guilty of all, had seemed to him first a swollen phrase until he had begun to grope in the darkness of his own state.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0020.flac",
+      "ref": "IF A MAN HAD STOLEN A POUND IN HIS YOUTH AND HAD USED THAT POUND TO AMASS A HUGE FORTUNE HOW MUCH WAS HE OBLIGED TO GIVE BACK THE POUND HE HAD STOLEN ONLY OR THE POUND TOGETHER WITH THE COMPOUND INTEREST ACCRUING UPON IT OR ALL HIS HUGE FORTUNE",
+      "whisper_improved": "if a man had stolen a pound in his youth and had used that pound to amass a huge fortune how much was he obliged to give back the pound he had stolen only or the pound together with the compound interest accruing upon it or all his huge fortune fortune.",
+      "gemini_clean": "If a man had stolen a pound in his youth and had used that pound to amass a huge fortune how much was he obliged to give back the pound he had stolen only or the pound together with the compound interest accruing upon it or all his huge fortune",
+      "gemini_clean_judge": "If a man had stolen a pound in his youth and had used that pound to amass a huge fortune, how much was he obliged to give back: the pound he had stolen only, or the pound together with the compound interest accruing upon it, or all his huge fortune?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0021.flac",
+      "ref": "IF A LAYMAN IN GIVING BAPTISM POUR THE WATER BEFORE SAYING THE WORDS IS THE CHILD BAPTIZED",
+      "whisper_improved": "If a layman, in giving baptism, pour the water before saying the words, is the child baptized?",
+      "gemini_clean": "If a layman in giving baptism pour the water before saying the words is the child baptized",
+      "gemini_clean_judge": "If a layman, in giving baptism, pours the water before saying the words, is the child baptized?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0022.flac",
+      "ref": "HOW COMES IT THAT WHILE THE FIRST BEATITUDE PROMISES THE KINGDOM OF HEAVEN TO THE POOR OF HEART THE SECOND BEATITUDE PROMISES ALSO TO THE MEEK THAT THEY SHALL POSSESS THE LAND",
+      "whisper_improved": "How comes it that while the first beatitude promises the kingdom of heaven to the poor of heart, the second beatitude promises also to the meek that they shall possess the land?",
+      "gemini_clean": "How comes it that while the first beatitude promises the kingdom of heaven to the poor of heart the second beatitude promises also to the meek that they shall possess the land",
+      "gemini_clean_judge": "How comes it that while the first beatitude promises the kingdom of heaven to the poor in heart, the second beatitude promises also to the meek that they shall inherit the land?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0023.flac",
+      "ref": "WHY WAS THE SACRAMENT OF THE EUCHARIST INSTITUTED UNDER THE TWO SPECIES OF BREAD AND WINE IF JESUS CHRIST BE PRESENT BODY AND BLOOD SOUL AND DIVINITY IN THE BREAD ALONE AND IN THE WINE ALONE",
+      "whisper_improved": "why was the sacrament of the eucharist instituted under the two species of bread and wine if jesus christ be present body and blood soul and divinity in the bread alone and in the wine alone own.",
+      "gemini_clean": "Why was the sacrament of the Eucharist instituted under the two species of bread and wine if Jesus Christ be present body and blood soul and divinity in the bread alone and in the wine alone",
+      "gemini_clean_judge": "Why was the sacrament of the Eucharist instituted under the two species of bread and wine if Jesus Christ be present body and blood, soul, and divinity in the bread alone and in the wine alone?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0024.flac",
+      "ref": "IF THE WINE CHANGE INTO VINEGAR AND THE HOST CRUMBLE INTO CORRUPTION AFTER THEY HAVE BEEN CONSECRATED IS JESUS CHRIST STILL PRESENT UNDER THEIR SPECIES AS GOD AND AS MAN",
+      "whisper_improved": "if the wine change into vinegar and the host crumble into corruption after they have been consecrated is jesus christ still present under their species as god and as man",
+      "gemini_clean": "If the wine change into vinegar and the host crumble into corruption after they have been consecrated is Jesus Christ still present under their species as God and as man",
+      "gemini_clean_judge": "If the wine changes into vinegar and the host crumbles into corruption after they have been consecrated, is Jesus Christ still present under their species as God and as man?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0025.flac",
+      "ref": "A GENTLE KICK FROM THE TALL BOY IN THE BENCH BEHIND URGED STEPHEN TO ASK A DIFFICULT QUESTION",
+      "whisper_improved": "A gentle kick from the tall boy in the bench behind urged Stephen to ask a difficult question.",
+      "gemini_clean": "A gentle kick from the tall boy in the bench behind urged Stephen to ask a difficult question",
+      "gemini_clean_judge": "A gentle kick from the tall boy in the bench behind urged Stephen to ask a difficult question.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0026.flac",
+      "ref": "THE RECTOR DID NOT ASK FOR A CATECHISM TO HEAR THE LESSON FROM",
+      "whisper_improved": "The rector did not ask for a catechism to hear the lesson from.",
+      "gemini_clean": "The rector did not ask for a catechism to hear the lesson from",
+      "gemini_clean_judge": "The rector did not ask for a catechism to hear the lesson from.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0027.flac",
+      "ref": "HE CLASPED HIS HANDS ON THE DESK AND SAID",
+      "whisper_improved": "He clasped his hands on the desk and said,",
+      "gemini_clean": "He clasped his hands on the desk and said",
+      "gemini_clean_judge": "He clasped his hands on the desk and said.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0028.flac",
+      "ref": "THE RETREAT WILL BEGIN ON WEDNESDAY AFTERNOON IN HONOUR OF SAINT FRANCIS XAVIER WHOSE FEAST DAY IS SATURDAY",
+      "whisper_improved": "The retreat will begin on Wednesday afternoon in honor of St. Francis Xavier, whose feast day is Saturday.",
+      "gemini_clean": "The retreat will begin on Wednesday afternoon in honor of Saint Francis Xavier whose feast day is Saturday",
+      "gemini_clean_judge": "The retreat will begin on Wednesday afternoon in honor of St. Francis Xavier, whose feast day is Saturday.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0029.flac",
+      "ref": "ON FRIDAY CONFESSION WILL BE HEARD ALL THE AFTERNOON AFTER BEADS",
+      "whisper_improved": "On Friday, confession will be heard all the afternoon after beads.",
+      "gemini_clean": "On Friday confession will be heard all the afternoon after beads",
+      "gemini_clean_judge": "On Friday, confession will be heard all afternoon after beads.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0030.flac",
+      "ref": "BEWARE OF MAKING THAT MISTAKE",
+      "whisper_improved": "Beware of making that mistake.",
+      "gemini_clean": "Beware of making that mistake",
+      "gemini_clean_judge": "Beware of making that mistake.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0031.flac",
+      "ref": "STEPHEN'S HEART BEGAN SLOWLY TO FOLD AND FADE WITH FEAR LIKE A WITHERING FLOWER",
+      "whisper_improved": "Stephen's heart began slowly to fold and fade with fear like a withering flower.",
+      "gemini_clean": "Stevens heart began slowly to fold and fade with fear like a withering flower",
+      "gemini_clean_judge": "Stephen's heart began slowly to fold and fade with fear like a withering flower.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0032.flac",
+      "ref": "HE IS CALLED AS YOU KNOW THE APOSTLE OF THE INDIES",
+      "whisper_improved": "He is called, as you know, the Apostle of the Indies.",
+      "gemini_clean": "He is called as you know the apostle of the Indies",
+      "gemini_clean_judge": "He is called, as you know, the Apostle of the Indies.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0033.flac",
+      "ref": "A GREAT SAINT SAINT FRANCIS XAVIER",
+      "whisper_improved": "A great saint, St. Francis Xavier.",
+      "gemini_clean": "a great saint Saint Francis Xavier",
+      "gemini_clean_judge": "A great saint, St. Francis Xavier.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0034.flac",
+      "ref": "THE RECTOR PAUSED AND THEN SHAKING HIS CLASPED HANDS BEFORE HIM WENT ON",
+      "whisper_improved": "The rector paused, and then, shaking his clasped hands before him, went on,",
+      "gemini_clean": "The rector paused and then shaking his clasped hands before him went on",
+      "gemini_clean_judge": "The rector paused and then, shaking his clasped hands before him, went on.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0035.flac",
+      "ref": "HE HAD THE FAITH IN HIM THAT MOVES MOUNTAINS",
+      "whisper_improved": "He had the faith in him that moves mountains.",
+      "gemini_clean": "He had the faith in him that moves mountains",
+      "gemini_clean_judge": "He had the faith in him that moves mountains.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0036.flac",
+      "ref": "A GREAT SAINT SAINT FRANCIS XAVIER",
+      "whisper_improved": "a great saint, Saint Francis Xavier.",
+      "gemini_clean": "a great saint Saint Francis Xavier",
+      "gemini_clean_judge": "A great saint, Saint Francis Xavier.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134686-0037.flac",
+      "ref": "IN THE SILENCE THEIR DARK FIRE KINDLED THE DUSK INTO A TAWNY GLOW",
+      "whisper_improved": "In the silence, their dark fire kindled the dusk into a tawny glow.",
+      "gemini_clean": "in the silence their dark fire kindled the dusk into a tawny glow",
+      "gemini_clean_judge": "In the silence, their dark fire kindled the dusk into a tawny glow.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0000.flac",
+      "ref": "HE COULD WAIT NO LONGER",
+      "whisper_improved": "He could wait no longer.",
+      "gemini_clean": "He could wait no longer",
+      "gemini_clean_judge": "He could wait no longer.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0001.flac",
+      "ref": "FOR A FULL HOUR HE HAD PACED UP AND DOWN WAITING BUT HE COULD WAIT NO LONGER",
+      "whisper_improved": "For a full hour he had paced up and down, waiting, but he could wait no longer.",
+      "gemini_clean": "for a full hour he had paced up and down waiting but he could wait no longer",
+      "gemini_clean_judge": "For a full hour he had paced up and down, waiting, but he could wait no longer.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0002.flac",
+      "ref": "HE SET OFF ABRUPTLY FOR THE BULL WALKING RAPIDLY LEST HIS FATHER'S SHRILL WHISTLE MIGHT CALL HIM BACK AND IN A FEW MOMENTS HE HAD ROUNDED THE CURVE AT THE POLICE BARRACK AND WAS SAFE",
+      "whisper_improved": "He set off abruptly for the bull, walking rapidly lest his father's shrill whistle might call him back, and in a few moments he had rounded the curve at the police barrack and was safe.",
+      "gemini_clean": "He set off abruptly for the Bull walking rapidly lest his fathers shrill whistle might call him back and in a few moments he had rounded the curve at the police barrack and was safe",
+      "gemini_clean_judge": "He set off abruptly for the Bull, walking rapidly lest his father's shrill whistle might call him back, and in a few moments he had rounded the curve at the police barrack and was safe.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0003.flac",
+      "ref": "THE UNIVERSITY",
+      "whisper_improved": "The university.",
+      "gemini_clean": "The university",
+      "gemini_clean_judge": "The university.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0004.flac",
+      "ref": "PRIDE AFTER SATISFACTION UPLIFTED HIM LIKE LONG SLOW WAVES",
+      "whisper_improved": "Pride after satisfaction uplifted him like long, slow waves.",
+      "gemini_clean": "pride after satisfaction uplifted him like long slow waves",
+      "gemini_clean_judge": "Pride after satisfaction uplifted him like long, slow waves.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0005.flac",
+      "ref": "WHOSE FEET ARE AS THE FEET OF HARTS AND UNDERNEATH THE EVERLASTING ARMS",
+      "whisper_improved": "whose feet are as the feet of hearts and underneath the everlasting arms.",
+      "gemini_clean": "whose feet are as the feet of hearts and underneath the everlasting arms",
+      "gemini_clean_judge": "Whose feet are as the feet of deer, and underneath the everlasting arms.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0006.flac",
+      "ref": "THE PRIDE OF THAT DIM IMAGE BROUGHT BACK TO HIS MIND THE DIGNITY OF THE OFFICE HE HAD REFUSED",
+      "whisper_improved": "The pride of that dim image brought back to his mind the dignity of the office he had refused.",
+      "gemini_clean": "The pride of that dim image brought back to his mind the dignity of the office he had refused",
+      "gemini_clean_judge": "The pride of that dim image brought back to his mind the dignity of the office he had refused.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0007.flac",
+      "ref": "SOON THE WHOLE BRIDGE WAS TREMBLING AND RESOUNDING",
+      "whisper_improved": "Soon the whole bridge was trembling and resounding.",
+      "gemini_clean": "Soon the whole bridge was trembling and resounding",
+      "gemini_clean_judge": "Soon the whole bridge was trembling and resounding.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0008.flac",
+      "ref": "THE UNCOUTH FACES PASSED HIM TWO BY TWO STAINED YELLOW OR RED OR LIVID BY THE SEA AND AS HE STROVE TO LOOK AT THEM WITH EASE AND INDIFFERENCE A FAINT STAIN OF PERSONAL SHAME AND COMMISERATION ROSE TO HIS OWN FACE",
+      "whisper_improved": "the uncouth faces passed him two by two stained yellow or red or livid by the sea and as he strove to look at them with ease and indifference a faint stain of personal shame and commiseration rose to his own face Peace.",
+      "gemini_clean": "The uncouth faces passed him two by two stained yellow or red or livid by the sea and as he strove to look at them with ease and indifference a faint stain of personal shame and commiseration rose to his own face",
+      "gemini_clean_judge": "The uncouth faces passed him two by two, stained yellow or red or livid by the sea, and as he strove to look at them with ease and indifference, a faint stain of personal shame and commiseration rose to his own face.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0009.flac",
+      "ref": "ANGRY WITH HIMSELF HE TRIED TO HIDE HIS FACE FROM THEIR EYES BY GAZING DOWN SIDEWAYS INTO THE SHALLOW SWIRLING WATER UNDER THE BRIDGE BUT HE STILL SAW A REFLECTION THEREIN OF THEIR TOP HEAVY SILK HATS AND HUMBLE TAPE LIKE COLLARS AND LOOSELY HANGING CLERICAL CLOTHES BROTHER HICKEY",
+      "whisper_improved": "Angry with himself, he tried to hide his face from their eyes by gazing down sideways into the shallow, swirling water under the bridge, but he still saw a reflection therein of their top-heavy silk hats, and humble, tape-like collars, and loosely hanging clerical clothes. Brother Hickey!",
+      "gemini_clean": "angry with himself he tried to hide his face from their eyes by gazing down sideways into the shallow swirling water under the bridge but he still saw a reflection therein of their topheavy silk hats and humble tapelike collars and loosely hanging clerical clothes Brother Hickey",
+      "gemini_clean_judge": "Angry with himself, he tried to hide his face from their eyes by gazing down sideways into the shallow, swirling water under the bridge, but he still saw a reflection therein of their top-heavy silk hats, humble tape-like collars, and loosely hanging clerical clothes. Brother Hickey",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0010.flac",
+      "ref": "BROTHER MAC ARDLE BROTHER KEOGH",
+      "whisper_improved": "Brother McArdle. Brother Keeof.",
+      "gemini_clean": "Brother McCardle Brother Keogh",
+      "gemini_clean_judge": "Brother McArdle, Brother Keogh.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0011.flac",
+      "ref": "THEIR PIETY WOULD BE LIKE THEIR NAMES LIKE THEIR FACES LIKE THEIR CLOTHES AND IT WAS IDLE FOR HIM TO TELL HIMSELF THAT THEIR HUMBLE AND CONTRITE HEARTS IT MIGHT BE PAID A FAR RICHER TRIBUTE OF DEVOTION THAN HIS HAD EVER BEEN A GIFT TENFOLD MORE ACCEPTABLE THAN HIS ELABORATE ADORATION",
+      "whisper_improved": "their piety would be like their names like their faces like their clothes and it was idle for him to tell himself that their humble and contrite hearts it might be paid a far richer tribute of devotion than his had ever been a gift tenfold more acceptable than his elaborate adoration",
+      "gemini_clean": "Their piety would be like their names like their faces like their clothes and it was idle for him to tell himself that their humble and contrite hearts it might be paid a far richer tribute of devotion than his had ever been a gift tenfold more acceptable than his elaborate adoration",
+      "gemini_clean_judge": "Their piety would be like their names, like their faces, like their clothes, and it was idle for him to tell himself that their humble and contrite hearts paid a far richer tribute of devotion than his had ever been, a gift tenfold more acceptable than his elaborate adoration.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0012.flac",
+      "ref": "IT WAS IDLE FOR HIM TO MOVE HIMSELF TO BE GENEROUS TOWARDS THEM TO TELL HIMSELF THAT IF HE EVER CAME TO THEIR GATES STRIPPED OF HIS PRIDE BEATEN AND IN BEGGAR'S WEEDS THAT THEY WOULD BE GENEROUS TOWARDS HIM LOVING HIM AS THEMSELVES",
+      "whisper_improved": "it was idle for him to move himself to be generous towards them to tell himself that if he ever came to their gates stripped of his pride beaten and in beggars weeds that they would be generous towards him loving him as themselves selves.",
+      "gemini_clean": "it was idle for him to move himself to be generous towards them to tell himself that if he ever came to their gates stripped of his pride beaten and in beggars weeds that they would be generous towards him loving him as themselves",
+      "gemini_clean_judge": "It was idle for him to move himself to be generous towards them, to tell himself that if he ever came to their gates stripped of his pride, beaten, and in beggars' weeds, that they would be generous towards him, loving him as themselves.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0013.flac",
+      "ref": "IDLE AND EMBITTERING FINALLY TO ARGUE AGAINST HIS OWN DISPASSIONATE CERTITUDE THAT THE COMMANDMENT OF LOVE BADE US NOT TO LOVE OUR NEIGHBOUR AS OURSELVES WITH THE SAME AMOUNT AND INTENSITY OF LOVE BUT TO LOVE HIM AS OURSELVES WITH THE SAME KIND OF LOVE",
+      "whisper_improved": "idle and embittering finally to argue against his own dispassionate certitude that the commandment of love bade us not to love our neighbor as ourselves with the same amount and intensity of love but to love him as ourselves with the same kind of love off.",
+      "gemini_clean": "idle and imbittering finally to argue against his own dispassionate certitude that the commandment of love bade us not to love our neighbor as ourselves with the same amount and intensity of love but to love him as ourselves with the same kind of love",
+      "gemini_clean_judge": "It is idle and embittering, finally, to argue against his own dispassionate certitude that the commandment of love bade us not to love our neighbor as ourselves with the same amount and intensity of love, but to love him as ourselves with the same kind of love.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0014.flac",
+      "ref": "THE PHRASE AND THE DAY AND THE SCENE HARMONIZED IN A CHORD",
+      "whisper_improved": "The phrase and the day and the scene harmonized in accord.",
+      "gemini_clean": "The phrase and the day and the scene harmonized in accord",
+      "gemini_clean_judge": "The phrase and the day and the scene harmonized in accord.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0015.flac",
+      "ref": "WORDS WAS IT THEIR COLOURS",
+      "whisper_improved": "words was it their colours",
+      "gemini_clean": "words Was it their colors",
+      "gemini_clean_judge": "Was it their colours?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0016.flac",
+      "ref": "THEY WERE VOYAGING ACROSS THE DESERTS OF THE SKY A HOST OF NOMADS ON THE MARCH VOYAGING HIGH OVER IRELAND WESTWARD BOUND",
+      "whisper_improved": "They were voyaging across the deserts of the sky, a host of nomads on the march, voyaging high over Ireland, westward bound.",
+      "gemini_clean": "They were voyaging across the deserts of the sky a host of nomads on the march voyaging high over Ireland westward bound",
+      "gemini_clean_judge": "They were voyaging across the deserts of the sky, a host of nomads on the march, voyaging high over Ireland, westward bound.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0017.flac",
+      "ref": "THE EUROPE THEY HAD COME FROM LAY OUT THERE BEYOND THE IRISH SEA EUROPE OF STRANGE TONGUES AND VALLEYED AND WOODBEGIRT AND CITADELLED AND OF ENTRENCHED AND MARSHALLED RACES",
+      "whisper_improved": "the europe they had come from lay out there beyond the irish sea europe of strange tongues and valleyed and wood begirt and citadel'd and of entrenched and marshall'd races pieces.",
+      "gemini_clean": "the europe they had come from lay out there beyond the irish sea europe of strange tongues and valleyed and woodbegirt and citadeled and of entrenched and marshaled races",
+      "gemini_clean_judge": "The Europe they had come from lay out there beyond the Irish Sea, Europe of strange tongues and valleyed and wood-begirt and citadeled, and of entrenched and marshaled races.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0018.flac",
+      "ref": "AGAIN AGAIN",
+      "whisper_improved": "Again. Again.",
+      "gemini_clean": "again again again",
+      "gemini_clean_judge": "Again. Again.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0019.flac",
+      "ref": "A VOICE FROM BEYOND THE WORLD WAS CALLING",
+      "whisper_improved": "A voice from beyond the world was calling.",
+      "gemini_clean": "a voice from beyond the world was calling",
+      "gemini_clean_judge": "A voice from beyond the world was calling.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0020.flac",
+      "ref": "HELLO STEPHANOS HERE COMES THE DEDALUS",
+      "whisper_improved": "Hello, Stephanos. Here comes the Daedalus.",
+      "gemini_clean": "Hello Stefanos Here comes the datalist",
+      "gemini_clean_judge": "Hello Stefanos. Here comes the Datalist.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0021.flac",
+      "ref": "THEIR DIVING STONE POISED ON ITS RUDE SUPPORTS AND ROCKING UNDER THEIR PLUNGES AND THE ROUGH HEWN STONES OF THE SLOPING BREAKWATER OVER WHICH THEY SCRAMBLED IN THEIR HORSEPLAY GLEAMED WITH COLD WET LUSTRE",
+      "whisper_improved": "their diving stone poised on its rude supports and rocking under their plunges and the rough-hewn stones of the sloping breakwater over which they scrambled in their horseplay gleamed with cold wet lustre",
+      "gemini_clean": "their diving stone poised on its rude supports and rocking under their plunges and the rough hewn stones of the sloping breakwater over which they scrambled in their horseplay gleamed with cold wet luster",
+      "gemini_clean_judge": "Their diving stone, poised on its rude supports and rocking under their plunges, and the rough-hewn stones of the sloping breakwater over which they scrambled in their horseplay, gleamed with cold wet lustre.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0022.flac",
+      "ref": "HE STOOD STILL IN DEFERENCE TO THEIR CALLS AND PARRIED THEIR BANTER WITH EASY WORDS",
+      "whisper_improved": "He stood still in deference to their calls, and parried their banter with easy words.",
+      "gemini_clean": "He stood still in deference to their calls and parried their banter with easy words",
+      "gemini_clean_judge": "He stood still in deference to their calls, and parried their banter with easy words.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0023.flac",
+      "ref": "IT WAS A PAIN TO SEE THEM AND A SWORD LIKE PAIN TO SEE THE SIGNS OF ADOLESCENCE THAT MADE REPELLENT THEIR PITIABLE NAKEDNESS",
+      "whisper_improved": "It was a pain to see them, and a sword-like pain to see the signs of adolescence that made repellent their pitiable nakedness.",
+      "gemini_clean": "It was a pain to see them and a sword like pain to see the signs of adolescence that made repellent their pitiable nakedness",
+      "gemini_clean_judge": "It was a pain to see them, and a sword-like pain to see the signs of adolescence that made their pitiable nakedness repellent.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0024.flac",
+      "ref": "STEPHANOS DEDALOS",
+      "whisper_improved": "Stefanos Derlos",
+      "gemini_clean": "Stefanos Stefanosloss",
+      "gemini_clean_judge": "Stefanos Derlos.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1089-134691-0025.flac",
+      "ref": "A MOMENT BEFORE THE GHOST OF THE ANCIENT KINGDOM OF THE DANES HAD LOOKED FORTH THROUGH THE VESTURE OF THE HAZEWRAPPED CITY",
+      "whisper_improved": "A moment before, the ghost of the ancient kingdom of the Danes had looked forth through the vesture of the haze-wrapped city.",
+      "gemini_clean": "a moment before the ghost of the ancient kingdom of the Danes had looked forth through the vesture of the haze wrapped city",
+      "gemini_clean_judge": "A moment before, the ghost of the ancient kingdom of the Danes had looked forth through the vesture of the haze-wrapped city.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0000.flac",
+      "ref": "YOU WILL FIND ME CONTINUALLY SPEAKING OF FOUR MEN TITIAN HOLBEIN TURNER AND TINTORET IN ALMOST THE SAME TERMS",
+      "whisper_improved": "you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms terms.",
+      "gemini_clean": "you will find me continually speaking of four men Titian Holbein Turner and Tintoret in almost the same terms",
+      "gemini_clean_judge": "You will find me continually speaking of four men: Titian, Holbein, Turner, and Tintoret, in almost the same terms.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0001.flac",
+      "ref": "THEY UNITE EVERY QUALITY AND SOMETIMES YOU WILL FIND ME REFERRING TO THEM AS COLORISTS SOMETIMES AS CHIAROSCURISTS",
+      "whisper_improved": "They unite every quality. And sometimes you will find me referring to them as colorists, sometimes as chiaroscurists.",
+      "gemini_clean": "they unite every quality and sometimes you will find me referring to them as colorists sometimes as chiaroscurists",
+      "gemini_clean_judge": "They unite every quality and sometimes you will find me referring to them as colorists, sometimes as chiaroscurists.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0002.flac",
+      "ref": "BY BEING STUDIOUS OF COLOR THEY ARE STUDIOUS OF DIVISION AND WHILE THE CHIAROSCURIST DEVOTES HIMSELF TO THE REPRESENTATION OF DEGREES OF FORCE IN ONE THING UNSEPARATED LIGHT THE COLORISTS HAVE FOR THEIR FUNCTION THE ATTAINMENT OF BEAUTY BY ARRANGEMENT OF THE DIVISIONS OF LIGHT",
+      "whisper_improved": "by being studious of colour they are studious of division and while the chiaroscurist devotes himself to the representation of degrees of force in one thing unseparated light the colourists have for their function the attainment of beauty by arrangement of the divisions of light",
+      "gemini_clean": "by being studious of color they are studious of division and while the chiaroscurist devotes himself to the representation of degrees of force in one thing unseparated light the colorists have for their function the attainment of beauty by arrangement of the divisions of light",
+      "gemini_clean_judge": "By being studious of colour, they are studious of division; and while the chiaroscurist devotes himself to the representation of degrees of force in one thing, unseparated light, the colourists have for their function the attainment of beauty by arrangement of the divisions of light.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0003.flac",
+      "ref": "MY FIRST AND PRINCIPAL REASON WAS THAT THEY ENFORCED BEYOND ALL RESISTANCE ON ANY STUDENT WHO MIGHT ATTEMPT TO COPY THEM THIS METHOD OF LAYING PORTIONS OF DISTINCT HUE SIDE BY SIDE",
+      "whisper_improved": "my first and principal reason was that they enforced beyond all resistance on any student who might attempt to copy them this method of laying portions of distinct hue side by side mind.",
+      "gemini_clean": "my first and principal reason was that they enforced beyond all resistance on any student who might attempt to copy them this method of laying portions of distinct hue side by side",
+      "gemini_clean_judge": "My first and principal reason was that they enforced, beyond all resistance on any student who might attempt to copy them, this method of laying portions of distinct hue side by side.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0004.flac",
+      "ref": "SOME OF THE TOUCHES INDEED WHEN THE TINT HAS BEEN MIXED WITH MUCH WATER HAVE BEEN LAID IN LITTLE DROPS OR PONDS SO THAT THE PIGMENT MIGHT CRYSTALLIZE HARD AT THE EDGE",
+      "whisper_improved": "some of the touches indeed when the tint has been mixed with much water have been laid in little drops or ponds so that the pigment might crystallize hard at the edge",
+      "gemini_clean": "some of the touches indeed when the tint has been mixed with much water have been laid in little drops or ponds so that the pigment might crystallize hard at the edge",
+      "gemini_clean_judge": "Some of the touches, indeed, when the tint has been mixed with much water, have been laid in little drops or ponds so that the pigment might crystallize hard at the edge.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0005.flac",
+      "ref": "IT IS THE HEAD OF A PARROT WITH A LITTLE FLOWER IN HIS BEAK FROM A PICTURE OF CARPACCIO'S ONE OF HIS SERIES OF THE LIFE OF SAINT GEORGE",
+      "whisper_improved": "It is the head of a parrot with a little flower in his beak from a picture of Carpatius, one of his series of The Life of St. George.",
+      "gemini_clean": "It is the head of a parrot with a little flower in his beak from a picture of Carpaccios one of his series of the life of Saint George",
+      "gemini_clean_judge": "It is the head of a parrot with a little flower in his beak from a picture of Carpaccio, one of his series of The Life of St. George.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0006.flac",
+      "ref": "THEN HE COMES TO THE BEAK OF IT",
+      "whisper_improved": "Then he comes to the beak of it.",
+      "gemini_clean": "Then he comes to the beak of it",
+      "gemini_clean_judge": "Then he comes to the beak of it.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0007.flac",
+      "ref": "THE BROWN GROUND BENEATH IS LEFT FOR THE MOST PART ONE TOUCH OF BLACK IS PUT FOR THE HOLLOW TWO DELICATE LINES OF DARK GRAY DEFINE THE OUTER CURVE AND ONE LITTLE QUIVERING TOUCH OF WHITE DRAWS THE INNER EDGE OF THE MANDIBLE",
+      "whisper_improved": "the brown ground beneath is left for the most part one touch of black is put for the hollow two delicate lines of dark grey define the outer curve and one little quivering touch of white draws the inner edge of the mandible",
+      "gemini_clean": "The brown ground beneath is left for the most part one touch of black is put for the hollow two delicate lines of dark gray define the outer curve and one little quivering touch of white draws the inner edge of the mandible",
+      "gemini_clean_judge": "The brown ground beneath is left for the most part; one touch of black is put for the hollow; two delicate lines of dark gray define the outer curve, and one little quivering touch of white draws the inner edge of the mandible.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0008.flac",
+      "ref": "FOR BELIEVE ME THE FINAL PHILOSOPHY OF ART CAN ONLY RATIFY THEIR OPINION THAT THE BEAUTY OF A COCK ROBIN IS TO BE RED AND OF A GRASS PLOT TO BE GREEN AND THE BEST SKILL OF ART IS IN INSTANTLY SEIZING ON THE MANIFOLD DELICIOUSNESS OF LIGHT WHICH YOU CAN ONLY SEIZE BY PRECISION OF INSTANTANEOUS TOUCH",
+      "whisper_improved": "for believe me the final philosophy of art can only ratify their opinion that the beauty of a cock-robin is to be red and of a grass-plot to be green and the best skill of art is in instantly seizing on the manifold deliciousness of light which you can only seize by precision of instantaneous touch Thank you very much.",
+      "gemini_clean": "for believe me the final philosophy of art can only ratify their opinion that the beauty of a cock robin is to be red and of a grass plot to be green and the best skill of art is in instantly seizing on the manifold deliciousness of light which you can only seize by precision of instantaneous touch",
+      "gemini_clean_judge": "For, believe me, the final philosophy of art can only ratify their opinion that the beauty of a cock-robin is to be red and of a grass-plot to be green; and the best skill of art is in instantly seizing on the manifold deliciousness of light, which you can only seize by precision of instantaneous touch.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0009.flac",
+      "ref": "NOW YOU WILL SEE IN THESE STUDIES THAT THE MOMENT THE WHITE IS INCLOSED PROPERLY AND HARMONIZED WITH THE OTHER HUES IT BECOMES SOMEHOW MORE PRECIOUS AND PEARLY THAN THE WHITE PAPER AND THAT I AM NOT AFRAID TO LEAVE A WHOLE FIELD OF UNTREATED WHITE PAPER ALL ROUND IT BEING SURE THAT EVEN THE LITTLE DIAMONDS IN THE ROUND WINDOW WILL TELL AS JEWELS IF THEY ARE GRADATED JUSTLY",
+      "whisper_improved": "now you will see in these studies that the moment the white is enclosed properly and harmonized with the other hues it becomes somehow more precious and pearly than the white paper and that i am not afraid to leave a whole field of untreated white paper all round it being sure that even the little diamonds in the round window will tell as jewels if they are gradated justly",
+      "gemini_clean": "Now you will see in these studies that the moment the white is enclosed properly and harmonized with the other hues it becomes somehow more precious and pearly than the white paper and that I am not afraid to leave a whole field of untreated white paper all round it being sure that even the little diamonds in the round window will tell as jewels if they are gradated justly",
+      "gemini_clean_judge": "Now, you will see in these studies that the moment the white is enclosed properly and harmonized with the other hues, it becomes somehow more precious and pearly than the white paper. And that I am not afraid to leave a whole field of untreated white paper all round it, being sure that even the little diamonds in the round window will tell as jewels if they are gradated justly.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0010.flac",
+      "ref": "BUT IN THIS VIGNETTE COPIED FROM TURNER YOU HAVE THE TWO PRINCIPLES BROUGHT OUT PERFECTLY",
+      "whisper_improved": "But in this vignette, copied from Turner, you have the two principles brought out perfectly.",
+      "gemini_clean": "But in this vignette copied from Turner you have the two principles brought out perfectly",
+      "gemini_clean_judge": "But in this vignette, copied from Turner, you have the two principles brought out perfectly.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0011.flac",
+      "ref": "THEY ARE BEYOND ALL OTHER WORKS THAT I KNOW EXISTING DEPENDENT FOR THEIR EFFECT ON LOW SUBDUED TONES THEIR FAVORITE CHOICE IN TIME OF DAY BEING EITHER DAWN OR TWILIGHT AND EVEN THEIR BRIGHTEST SUNSETS PRODUCED CHIEFLY OUT OF GRAY PAPER",
+      "whisper_improved": "they are beyond all other works that i know existing dependent for their effect on low subdued tones their favorite choice in time of day being either dawn or twilight and even their brightest sunsets produced chiefly out of gray paper paper.",
+      "gemini_clean": "They are beyond all other works that I know existing dependent for their effect on low subdued tones their favorite choice in time of day being either dawn or twilight and even their brightest sunsets produced chiefly out of gray paper",
+      "gemini_clean_judge": "They are beyond all other works that I know, existing, dependent for their effect on low subdued tones; their favorite choice in time of day being either dawn or twilight, and even their brightest sunsets produced chiefly out of gray paper.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0012.flac",
+      "ref": "IT MAY BE THAT A GREAT COLORIST WILL USE HIS UTMOST FORCE OF COLOR AS A SINGER HIS FULL POWER OF VOICE BUT LOUD OR LOW THE VIRTUE IS IN BOTH CASES ALWAYS IN REFINEMENT NEVER IN LOUDNESS",
+      "whisper_improved": "it may be that a great colorist will use his utmost force of color as a singer his full power of voice but loud or low the virtue is in both cases always in refinement never in loudness this.",
+      "gemini_clean": "It may be that a great colorist will use his utmost force of color as a singer his full power of voice but loud or low the virtue is in both cases always in refinement never in loudness",
+      "gemini_clean_judge": "It may be that a great colorist will use his utmost force of color, as a singer his full power of voice, but loud or low, the virtue is in both cases always in refinement, never in loudness.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0013.flac",
+      "ref": "IT MUST REMEMBER BE ONE OR THE OTHER",
+      "whisper_improved": "It must, remember, be one or the other.",
+      "gemini_clean": "It must remember be one or the other",
+      "gemini_clean_judge": "It must be one or the other.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0014.flac",
+      "ref": "DO NOT THEREFORE THINK THAT THE GOTHIC SCHOOL IS AN EASY ONE",
+      "whisper_improved": "Do not, therefore, think that the Gothic school is an easy one.",
+      "gemini_clean": "Do not therefore think that the Gothic school is an easy one",
+      "gemini_clean_judge": "Do not, therefore, think that the Gothic school is an easy one.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0015.flac",
+      "ref": "THE LAW OF THAT SCHOOL IS THAT EVERYTHING SHALL BE SEEN CLEARLY OR AT LEAST ONLY IN SUCH MIST OR FAINTNESS AS SHALL BE DELIGHTFUL AND I HAVE NO DOUBT THAT THE BEST INTRODUCTION TO IT WOULD BE THE ELEMENTARY PRACTICE OF PAINTING EVERY STUDY ON A GOLDEN GROUND",
+      "whisper_improved": "the law of that school is that everything shall be seen clearly or at least only in such mist or faintness as shall be delightful and i have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground ground.",
+      "gemini_clean": "The law of that school is that everything shall be seen clearly or at least only in such mist or faintness as shall be delightful and I have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground",
+      "gemini_clean_judge": "The law of that school is that everything shall be seen clearly, or at least only in such mist or faintness as shall be delightful, and I have no doubt that the best introduction to it would be the elementary practice of painting every study on a golden ground.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0016.flac",
+      "ref": "THIS AT ONCE COMPELS YOU TO UNDERSTAND THAT THE WORK IS TO BE IMAGINATIVE AND DECORATIVE THAT IT REPRESENTS BEAUTIFUL THINGS IN THE CLEAREST WAY BUT NOT UNDER EXISTING CONDITIONS AND THAT IN FACT YOU ARE PRODUCING JEWELER'S WORK RATHER THAN PICTURES",
+      "whisper_improved": "this at once compels you to understand that the work is to be imaginative and decorative that it represents beautiful things in the clearest way but not under existing conditions and that in fact you are producing jeweller's work rather than pictures",
+      "gemini_clean": "This at once compels you to understand that the work is to be imaginative and decorative that it represents beautiful things in the clearest way but not under existing conditions and that in fact you are producing jewelers work rather than pictures",
+      "gemini_clean_judge": "This at once compels you to understand that the work is to be imaginative and decorative, that it represents beautiful things in the clearest way but not under existing conditions, and that in fact, you are producing jeweller's work rather than pictures.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0017.flac",
+      "ref": "THAT A STYLE IS RESTRAINED OR SEVERE DOES NOT MEAN THAT IT IS ALSO ERRONEOUS",
+      "whisper_improved": "That a style is restrained or severe does not mean that it is also erroneous.",
+      "gemini_clean": "that a style is restrained or severe does not mean that it is also erroneous",
+      "gemini_clean_judge": "That a style is restrained or severe does not mean that it is also erroneous.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0018.flac",
+      "ref": "IN ALL EARLY GOTHIC ART INDEED YOU WILL FIND FAILURE OF THIS KIND ESPECIALLY DISTORTION AND RIGIDITY WHICH ARE IN MANY RESPECTS PAINFULLY TO BE COMPARED WITH THE SPLENDID REPOSE OF CLASSIC ART",
+      "whisper_improved": "in all early gothic art indeed you will find failure of this kind especially distortion and rigidity which are in many respects painfully to be compared with the splendid repose of classic art part.",
+      "gemini_clean": "in all early Gothic art indeed you will find failure of this kind especially distortion and rigidity which are in many respects painfully to be compared with the splendid repose of classic art",
+      "gemini_clean_judge": "In all early Gothic art, indeed, you will find failure of this kind, especially distortion and rigidity, which are in many respects painfully to be compared with the splendid repose of classic art.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0019.flac",
+      "ref": "THE LARGE LETTER CONTAINS INDEED ENTIRELY FEEBLE AND ILL DRAWN FIGURES THAT IS MERELY CHILDISH AND FAILING WORK OF AN INFERIOR HAND IT IS NOT CHARACTERISTIC OF GOTHIC OR ANY OTHER SCHOOL",
+      "whisper_improved": "the large letter contains indeed entirely feeble and ill-drawn figures that is merely childish and failing work of an inferior hand it is not characteristic of gothic or any other school Cool.",
+      "gemini_clean": "The large letter contains indeed entirely feeble and ill drawn figures that is merely childish and failing work of an inferior hand it is not characteristic of gothic or any other school",
+      "gemini_clean_judge": "The large letter contains indeed entirely feeble and ill-drawn figures that are merely childish and failing work of an inferior hand; it is not characteristic of Gothic or any other school.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0020.flac",
+      "ref": "BUT OBSERVE YOU CAN ONLY DO THIS ON ONE CONDITION THAT OF STRIVING ALSO TO CREATE IN REALITY THE BEAUTY WHICH YOU SEEK IN IMAGINATION",
+      "whisper_improved": "but observe you can only do this on one condition that of striving also to create in reality the beauty which you seek in imagination imagination.",
+      "gemini_clean": "but observe you can only do this on one condition that of striving also to create in reality the beauty which you seek in imagination",
+      "gemini_clean_judge": "But, observe, you can only do this on one condition: that of striving also to create in reality the beauty which you seek in imagination.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0021.flac",
+      "ref": "IT WILL BE WHOLLY IMPOSSIBLE FOR YOU TO RETAIN THE TRANQUILLITY OF TEMPER AND FELICITY OF FAITH NECESSARY FOR NOBLE PURIST PAINTING UNLESS YOU ARE ACTIVELY ENGAGED IN PROMOTING THE FELICITY AND PEACE OF PRACTICAL LIFE",
+      "whisper_improved": "it will be wholly impossible for you to retain the tranquillity of temper and felicity of faith necessary for noble purist painting unless you are actively engaged in promoting the felicity and peace of practical life life.",
+      "gemini_clean": "it will be wholly impossible for you to retain the tranquility of temper and felicity of faith necessary for noble purist painting unless you are actively engaged in promoting the felicity and peace of practical life",
+      "gemini_clean_judge": "It will be wholly impossible for you to retain the tranquility of temper and felicity of faith necessary for noble, purest painting unless you are actively engaged in promoting the felicity and peace of practical life.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0022.flac",
+      "ref": "YOU MUST LOOK AT HIM IN THE FACE FIGHT HIM CONQUER HIM WITH WHAT SCATHE YOU MAY YOU NEED NOT THINK TO KEEP OUT OF THE WAY OF HIM",
+      "whisper_improved": "you must look at him in the face fight him conquer him with what scathe you may you need not think to keep out of the way of him him.",
+      "gemini_clean": "You must look at him in the face fight him conquer him with what scathe you may you need not think to keep out of the way of him",
+      "gemini_clean_judge": "You must look at him in the face, fight him, conquer him with what scathe you may. You need not think to keep out of the way of him.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0023.flac",
+      "ref": "THE COLORIST SAYS FIRST OF ALL AS MY DELICIOUS PAROQUET WAS RUBY SO THIS NASTY VIPER SHALL BE BLACK AND THEN IS THE QUESTION CAN I ROUND HIM OFF EVEN THOUGH HE IS BLACK AND MAKE HIM SLIMY AND YET SPRINGY AND CLOSE DOWN CLOTTED LIKE A POOL OF BLACK BLOOD ON THE EARTH ALL THE SAME",
+      "whisper_improved": "The colorist says, first of all, as my delicious parquet was ruby, so this nasty viper shall be black. And then is the question, can I round him off, even though he is black, and make him slimy, and yet springy and close down, clotted like a pool of black blood on the earth, all the same?",
+      "gemini_clean": "the colorist says first of all as my delicious parakeet was ruby so this nasty viper shall be black and then is the question can I round him off even though he is black and make him slimy and yet springy and close down clotted like a pool of black blood on the earth all the same",
+      "gemini_clean_judge": "The colorist says, \"First of all, as my delicious parakeet was ruby, so this nasty viper shall be black.\" And then the question is, can I round him off, even though he is black, and make him slimy and yet springy and close down, clotted like a pool of black blood on the earth, all the same?",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0024.flac",
+      "ref": "NOTHING WILL BE MORE PRECIOUS TO YOU I THINK IN THE PRACTICAL STUDY OF ART THAN THE CONVICTION WHICH WILL FORCE ITSELF ON YOU MORE AND MORE EVERY HOUR OF THE WAY ALL THINGS ARE BOUND TOGETHER LITTLE AND GREAT IN SPIRIT AND IN MATTER",
+      "whisper_improved": "nothing will be more precious to you i think in the practical study of art than the conviction which will force itself on you more and more every hour of the way all things are bound together little and great in spirit and in matter matter.",
+      "gemini_clean": "nothing will be more precious to you I think in the practical study of art than the conviction which will force itself on you more and more every hour of the way all things are bound together little and great in spirit and in matter",
+      "gemini_clean_judge": "Nothing will be more precious to you, I think, in the practical study of art, than the conviction which will force itself on you more and more every hour of the way all things are bound together, little and great, in spirit and in matter.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0025.flac",
+      "ref": "YOU KNOW I HAVE JUST BEEN TELLING YOU HOW THIS SCHOOL OF MATERIALISM AND CLAY INVOLVED ITSELF AT LAST IN CLOUD AND FIRE",
+      "whisper_improved": "You know I've just been telling you how this school of materialism and clay involved itself at last in cloud and fire.",
+      "gemini_clean": "You know I've just been telling you how this school of materialism and clay involved itself at last in cloud and fire",
+      "gemini_clean_judge": "You know, I've just been telling you how this school of materialism and clay involved itself at last in cloud and fire.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0026.flac",
+      "ref": "HERE IS AN EQUALLY TYPICAL GREEK SCHOOL LANDSCAPE BY WILSON LOST WHOLLY IN GOLDEN MIST THE TREES SO SLIGHTLY DRAWN THAT YOU DON'T KNOW IF THEY ARE TREES OR TOWERS AND NO CARE FOR COLOR WHATEVER PERFECTLY DECEPTIVE AND MARVELOUS EFFECT OF SUNSHINE THROUGH THE MIST APOLLO AND THE PYTHON",
+      "whisper_improved": "Here is an equally typical Greek school landscape by Wilson. Lost wholly in golden mist, the trees so slightly drawn that you don't know if they are trees or towers, and no care for color whatsoever. Perfectly deceptive and marvelous effect of sunshine through the mist. Apollo and the Python.",
+      "gemini_clean": "Here is an equally typical Greek school landscape by Wilson Lost wholly in golden mist the trees so slightly drawn that you dont know if they are trees or towers and no care for color whatsoever Perfectly deceptive and marvelous effect of sunshine through the mist Apollo and the Python",
+      "gemini_clean_judge": "Here is an equally typical Greek school landscape by Wilson. Lost wholly in golden mist, the trees so slightly drawn that you don't know if they are trees or towers, and no care for color whatsoever. Perfectly deceptive and marvelous effect of sunshine through the mist. Apollo and the Python.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0027.flac",
+      "ref": "NOW HERE IS RAPHAEL EXACTLY BETWEEN THE TWO TREES STILL DRAWN LEAF BY LEAF WHOLLY FORMAL BUT BEAUTIFUL MIST COMING GRADUALLY INTO THE DISTANCE",
+      "whisper_improved": "now here is raphael exactly between the two trees still drawn leaf by leaf wholly formal but beautiful mist coming gradually into the distance distance.",
+      "gemini_clean": "Now here is Raphael exactly between the two trees still drawn leaf by leaf wholly formal but beautiful mist coming gradually into the distance",
+      "gemini_clean_judge": "Now here is Raphael, exactly between the two trees, still drawn leaf by leaf, wholly formal but beautiful, with mist coming gradually into the distance.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0028.flac",
+      "ref": "WELL THEN LAST HERE IS TURNER'S GREEK SCHOOL OF THE HIGHEST CLASS AND YOU DEFINE HIS ART ABSOLUTELY AS FIRST THE DISPLAYING INTENSELY AND WITH THE STERNEST INTELLECT OF NATURAL FORM AS IT IS AND THEN THE ENVELOPMENT OF IT WITH CLOUD AND FIRE",
+      "whisper_improved": "well then last here is turner's greek school of the highest class and you define his art absolutely as first the displaying intensely and with the sternest intellect of natural form as it is and then the envelopment of it with cloud and fire fire.",
+      "gemini_clean": "Well then last here is Turners Greek school of the highest class and you define his art absolutely as first the displaying intensely and with the sternest intellect of natural form as it is and then the envelopment of it with cloud and fire",
+      "gemini_clean_judge": "Well then, last, here is Turner's Greek school of the highest class, and you define his art absolutely as: first, the displaying intensely and with the sternest intellect of natural form as it is, and then, the envelopment of it with cloud and fire.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0029.flac",
+      "ref": "ONLY THERE ARE TWO SORTS OF CLOUD AND FIRE",
+      "whisper_improved": "only there are two sorts of cloud and fire",
+      "gemini_clean": "only there are two sorts of cloud and fire",
+      "gemini_clean_judge": "Only there are two sorts of cloud and fire.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0030.flac",
+      "ref": "HE KNOWS THEM BOTH",
+      "whisper_improved": "He knows them both.",
+      "gemini_clean": "He knows them both",
+      "gemini_clean_judge": "He knows them both.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0031.flac",
+      "ref": "THERE'S ONE AND THERE'S ANOTHER THE DUDLEY AND THE FLINT",
+      "whisper_improved": "There's one and there's another, the Dudley and the Flint.",
+      "gemini_clean": "Theres one and theres another the Dudley and the Flint",
+      "gemini_clean_judge": "There's one and there's another, the Dudley and the Flint.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0032.flac",
+      "ref": "IT IS ONLY A PENCIL OUTLINE BY EDWARD BURNE JONES IN ILLUSTRATION OF THE STORY OF PSYCHE IT IS THE INTRODUCTION OF PSYCHE AFTER ALL HER TROUBLES INTO HEAVEN",
+      "whisper_improved": "it is only a pencil outline by edward burne jones in illustration of the story of psyche it is the introduction of psyche after all her troubles into heaven",
+      "gemini_clean": "It is only a pencil outline by Edward Burne Jones in illustration of the story of Psyche It is the introduction of Psyche after all her troubles into heaven",
+      "gemini_clean_judge": "It is only a pencil outline by Edward Burne-Jones in illustration of the story of Psyche. It is the introduction of Psyche after all her troubles into heaven.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0033.flac",
+      "ref": "EVERY PLANT IN THE GRASS IS SET FORMALLY GROWS PERFECTLY AND MAY BE REALIZED COMPLETELY",
+      "whisper_improved": "Every plant in the grass is set formally, grows perfectly, and may be realized completely.",
+      "gemini_clean": "Every plant in the grass is set formally grows perfectly and may be realized completely",
+      "gemini_clean_judge": "Every plant in the grass is set formally, grows perfectly, and may be realized completely.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0034.flac",
+      "ref": "EXQUISITE ORDER AND UNIVERSAL WITH ETERNAL LIFE AND LIGHT THIS IS THE FAITH AND EFFORT OF THE SCHOOLS OF CRYSTAL AND YOU MAY DESCRIBE AND COMPLETE THEIR WORK QUITE LITERALLY BY TAKING ANY VERSES OF CHAUCER IN HIS TENDER MOOD AND OBSERVING HOW HE INSISTS ON THE CLEARNESS AND BRIGHTNESS FIRST AND THEN ON THE ORDER",
+      "whisper_improved": "exquisite order and universal with eternal life and light this is the faith and effort of the schools of crystal and you may describe and complete their work quite literally by taking any verses of chaucer in his tender mood and observing how he insists on the clearness and brightness first and then on the order",
+      "gemini_clean": "exquisite order and universal with eternal life and light this is the faith and effort of the schools of crystal and you may describe and complete their work quite literally by taking any verses of chaucer in his tender mood and observing how he insists on the clearness and brightness first and then on the order",
+      "gemini_clean_judge": "Exquisite order and universal with eternal life and light. This is the faith and effort of the schools of crystal. And you may describe and complete their work quite literally by taking any verses of Chaucer in his tender mood and observing how he insists on the clearness and brightness first, and then on the order.",
+      "nemo_canary": null
+    },
+    {
+      "file": "1188-133604-0035.flac",
+      "ref": "THUS IN CHAUCER'S DREAM",
+      "whisper_improved": "Thus, in Chaucer's dream,",
+      "gemini_clean": "Thus in Chaucers dream",
+      "gemini_clean_judge": "Thus, in Chaucer's dream.",
+      "nemo_canary": null
+    }
+  ],
+  "num_files": 100
+}

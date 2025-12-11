@@ -1,0 +1,835 @@
+{
+  "summary_metrics": {
+    "whisper": {
+      "wer": 9.889547916001677,
+      "cer": 3.6575525028617073,
+      "sub_rate": 7.271904725858487,
+      "del_rate": 2.1926431901431904,
+      "ins_rate": 10.693096475285525
+    },
+    "gemini": {
+      "wer": 6.807770147211188,
+      "cer": 1.3571829713783305,
+      "sub_rate": 6.2195375464785885,
+      "del_rate": 0.16323260073260074,
+      "ins_rate": 10.693096475285525
+    },
+    "judge": {
+      "wer": 23.375408471256836,
+      "cer": 11.871743372145238,
+      "sub_rate": 17.339905596938173,
+      "del_rate": 2.5716475191475197,
+      "ins_rate": 11.081555560060401
+    },
+    "nemo": {
+      "wer": 100.0,
+      "cer": 100.0,
+      "sub_rate": 0.0,
+      "del_rate": 0.0,
+      "ins_rate": 0.0
+    }
+  },
+  "transcriptions": [
+    {
+      "file": "ARA NORM  0002.wav",
+      "ref": "﻿waraj~aHa Alt~aqoriyru Al~aTHiy >aEad~ahu maEohadu >aboHaA^i haDabapi Alt~ibiti fiy Alo>akaAdiymiy~api AlS~iyniy~api liloEuluwmi - >ano tasotamir~a darajaAtu AloHaraArapi wamusotawayaAtu Alr~uTuwbapi fiy Alo<irotifaAEi TawaAla haTHaA Aloqarono",
+      "whisper_improved": "ورجح التقرير الذي أعده معهد أبحاث هضبة التبت في الأكاديمية الصينية للعلوم أن تستمر درجات الحرارة ومستويات الرطوبة في الارتفاع طوال هذا القرن",
+      "gemini_clean": "ورجح التقرير الذي اعده معهد ابحاث هضبه التبت في الاكاديميه الصينيه للعلوم ان تستمر درجات الحراره ومستويات الرطوبه في الارتفاع طوال هذا القرن",
+      "gemini_clean_judge": "ورجّح التقرير الذي أعدّه معهد أبحاث هضبة التبت في الأكاديمية الصينية للعلوم، أن تستمر درجات الحرارة ومستويات الرطوبة في الارتفاع طوال هذا القرن.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0003.wav",
+      "ref": "mim~aA qado yu&ad~iy <ilaY taraAjuEi masaAHaAti Alo>anohaAri Alj~aliydiy~api waAnoti$aAri Alt~aSaH~uri",
+      "whisper_improved": "مما قد يؤدي إلى تراجع مساحات الأنهار الجليدية وانتشار التصحر",
+      "gemini_clean": "مما قد يؤدي إلى تراجع مساحات الأنهار الجليدية وانتشار التصحر",
+      "gemini_clean_judge": "ما ينجم عنه تراجع مساحات الأنهار الجليدية، وانتشار التصحر.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0004.wav",
+      "ref": "wa*akara Alt~aqoriyru >ana taraAjuEa masaAHapi Alojaliydi yumokinu >ay~uxil~a bimuEad~alaAti <imodaAdaAti AlomiyaAhi - liEadadK mino >anohaAri |soyaA Alr~a}iysiy~api Al~atiy tamobuEu mina AlohaDabapi",
+      "whisper_improved": "وذكر التقرير أن تراجع مساحة الجليد يمكن أن يخل بمعدلات إمدادات المياه لعدد من أنهار آسيا الرئيسية التي تنبع من الهضبة",
+      "gemini_clean": "وذاكر التقرير أن تراجع مساحة الجليد يمكن أن يخل بمعدلات إمدادات المياه لعدد من أنهار آسيا الرئيسية التي تنبع من الهضبة",
+      "gemini_clean_judge": "وذكر التقرير أن تراجع مساحة الجليد يمكن أن يخل بمعدلات إمدادات المياه لعدد من أنهار آسيا الرئيسية التي تنبع من الهضبة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0005.wav",
+      "ref": "bayonahaA nahoraA yaluw wayaAnogotsiy - fiy AlS~iyno",
+      "whisper_improved": "بينها نهر يلو ويانج تسي في الصين",
+      "gemini_clean": "بينها نهرا يلو ويانج تسي في الصين",
+      "gemini_clean_judge": "بينها نهر يلو ونهر يانج تسي في الصين.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0006.wav",
+      "ref": "wafiy Al$~awoTi Al^~aAniy AsotaEaAda baAriysu saAno jiyoramAnu musotawaAhu waHaq~aqa Alt~aEaAdula Eano Tariyqi AboraAhiymuwfiyto$ - mino tasodiydapK AsotaEoSato EalaY AloHaAriso",
+      "whisper_improved": "وفي الشوط الثاني استعد باريس سان جرمان مستواه وحقق التعادل عن طريق إبراهيموفيتش من تسديدات استعصت على الحارس",
+      "gemini_clean": "وفي الشوط الثاني استعاد باريس سان جيرمان مستواه وحقق التعادل عن طريق ابراهيموفيتش من تسديدة استعصت على الحارس",
+      "gemini_clean_judge": "وفي الشوط الثاني، استعاد باريس سان جرمان مستواه وحقق التعادل عن طريق إبراهيموفيتش من تسديدة استعصت على الحارس.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0007.wav",
+      "ref": "yatama^~alu Alo<ibodaAEu Alofan~iy~u waAloHaDaAriy~u Al~a*iy yako$ifu Eanohu AlomaEoriDu fiy tuHafK ka^iyrapK - mutanaw~iEapK $amilato Ea$araAti Alo>azoyaA'i Al~atiy nusijato bi>anaAmila *ahabiy~apK - Eakasato siHora wabahaA'a Alt~aToriyzi biAloHariyri wamawaAd~a >uxoraY",
+      "whisper_improved": "يتمثل الإبداع الفني والحضاري الذي يكشف عنه المعرض في تحف كثيرة متنوعة شملت عشرات الأزياء التي نسجت بأنامل ذهبية عكست سحر وبهاء التطريز بالحرير ومواد أخرى",
+      "gemini_clean": "يتمثل الإبداع الفني والحضاري الذي يكشف عنه المعرض في تحف كثيرة متنوعة شملت عشرات الأزياء التي نسجت بأنامل ذهبية عكست سحر وبهاء التطريز بالحرير ومواد أخرى",
+      "gemini_clean_judge": "يتمثل الإبداع الفني والحضاري الذي يكشف عنه المعرض في تحف كثيرة متنوعة، شملت عشرات الأزياء التي نُسجت بأنامل ذهبية وعكست سحر وبهاء التطريز بالحرير ومواد أخرى.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0008.wav",
+      "ref": "<iDaAfapF <ilaY EaroDi >anowaAEK EadiydapK mina Alo>a^aA^i Alomuzaxorafi waAlS~anaAdiyqi waAlo>awaAniy waAlo>adawaAti - waAlo>agoTiyapi waAll~awoHaAti Alofan~iy~api AloEaAkisapi litiqoniy~aAtK mudohi$apK - tujas~idu mahaAraAtK Hirafiy~apF EarafatohaA Alo>anoduluso",
+      "whisper_improved": "إضافة إلى عرض أنواع عديدة من الأثاث المزخرف والصناديق والأواني والأدوات والأغطية واللوحات الفنية العاكسة لتقنيات مدهشة تجسد مهارات حرفية عرفتها الأندلس",
+      "gemini_clean": "إضافة إلى عرض أنواع عديدة من الأثاث المزخرف والصناديق والأواني والأدوات والأغطية واللوحات الفنية العاكسة لتقنيات مدهشة تجسد مهارات حرفية عرفتها الأندلس",
+      "gemini_clean_judge": "إضافة إلى عرض أنواع عديدة من الأثاث المزخرف، والصناديق، والأواني، والأدوات، والأغطية، واللوحات الفنية التي تعكس تقنيات مدهشة تجسد مهارات حرفية عرفتها الأندلس.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0009.wav",
+      "ref": "yaxotalifu AlohaAtifu Alz~akiy~u Eani AlohaAtifi Alt~aqoliydiy~i fiy >an~ahu yuqad~imu EadadAF mino waZaA}ifi AloHawosabapi AlomutaTaw~irapi - waquduraAti Alo<it~iSaAli Alomutaqad~imapi - <ilaY jaAnibi waZaA}ifi AlohaAtifi Alt~aqoliydiy~api Alo>uxoraY",
+      "whisper_improved": "يختلف الهاتف الزكي عن الهاتف التقليدي في أنه يقدم عددا من وظائف الحوسبة المتطورة وقدرات الاتصال المتقدمة إلى جانب وظائف الهاتف التقليدية الأخرى.",
+      "gemini_clean": "يختلف الهاتف الذكي عن الهاتف التقليدي في أنه يقدم عددا من وظائف الحوسبة المتطورة وقدرات الاتصال المتقدمة إلى جانب وظائف الهاتف التقليدية الأخرى",
+      "gemini_clean_judge": "يختلف الهاتف الذكي عن الهاتف التقليدي، في أنه يقدم عددًا من وظائف الحوسبة المتطورة وقدرات الاتصال المتقدمة إلى جانب وظائف الهاتف التقليدية الأخرى.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0010.wav",
+      "ref": "wakaAmiraAti Alt~aSowiyri Alomudomajapi *aAti Ald~iq~api AloEaAliyapi",
+      "whisper_improved": "وكاميرات التصوير المدمجة ذات الدقة العالية",
+      "gemini_clean": "وكاميرات التصوير المدمجة ذات الدقة العالية",
+      "gemini_clean_judge": "وكاميرات التصوير المدمجة ذات الدقة العالية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0011.wav",
+      "ref": "waAlomuEaAlijaAti Al^~unaA}iy~api waAlr~ubaAEiy~api Aln~awaY",
+      "whisper_improved": "والمعالجات الثنائية والرباعية النوى",
+      "gemini_clean": "والمعالجات الثنائية والرباعية النوا",
+      "gemini_clean_judge": "والمعالجات الثنائية والرباعية النوى.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0012.wav",
+      "ref": "waHaAlapi Alo<isotiqoTaAbi Als~iyaAsiy~i AloHaAd~i",
+      "whisper_improved": "وحالة الاستقطاب السياسي الحاد",
+      "gemini_clean": "وحالة الاستقطاب السياسي الحاد",
+      "gemini_clean_judge": "وحالة الاستقطاب السياسي الحاد.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0013.wav",
+      "ref": "liyatamak~ana AloqaAri}u mino mutaAbaEapi taTaw~uri AloqiS~api Aloxabariy~api bi$akolK salisK wafaE~aAlK",
+      "whisper_improved": "ليتمكن القارئ من متابعة تطور القصة الخبرية بشكل سليس وفعال",
+      "gemini_clean": "ليتمكن القارئ من متابعة تطور القصة الخبرية بشكل سلس وفعال",
+      "gemini_clean_judge": "ليتمكن القارئ من متابعة تطور القصة الخبرية بشكل سلس وفعال.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0014.wav",
+      "ref": "waminohaA >ayoDAF - >ald~aEomu Alomutaqad~imu lilo>aro$afapi",
+      "whisper_improved": "ومنها أيضا الدعم المتقدم للأرشفة",
+      "gemini_clean": "ومنها أيضا الدعم المتقدم للأرشفة",
+      "gemini_clean_judge": "ومنها أيضًا الدعم المتقدم للأرشفة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0015.wav",
+      "ref": "waya>otiy Alt~aSomiymu AlomuTaw~aru limawoqiEi Alojaziyrapi nito wifoqAF limafohuwmi AlobasaATapi waAlt~arokiyzi EalaY >awolawiy~api AlomuHotawaY",
+      "whisper_improved": "ويأتي التصميم المطور لموقع الجزيرة نت وفقا لمفهوم البساطة والتركيز على أولوية المحتوى",
+      "gemini_clean": "ويأتي التصميم المطور لموقع الجزيرة نت وفقا لمفهوم البساطة والتركيز على أولوية المحتوى",
+      "gemini_clean_judge": "ويأتي التصميم المطور لموقع الجزيرة نت، وفقًا لمفهوم البساطة والتركيز على أولوية المحتوى.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0016.wav",
+      "ref": "watam~a Alt~arokiyzu >ayoDAF EalaY mafohuwmi tasohiyli AloqiraA'api biAxotiyaAri xuTuwTK mulaA}imapK",
+      "whisper_improved": "وتم التركيز أيضا على مفهوم تسهيل القراءة باختيار خطوط ملائمة",
+      "gemini_clean": "وتم التركيز أيضا على مفهوم تسهيل القراءة باختيار خطوط ملائمة",
+      "gemini_clean_judge": "وتم التركيز أيضًا على مفهوم تسهيل القراءة باختيار خطوط ملائمة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0017.wav",
+      "ref": "kamaA tasomaHu AloqawaA}imu Alomunosadilapu fiy >aEolaY AlS~afoHapi bitaqosiymi AloEanaASiri <ilaY >arobaEi baw~aAbaAtK ra}iysiy~apK - hiya Alo>axobaAru waAlomaEorifapu waAlobaraAmiju waAlt~aEoliymo",
+      "whisper_improved": "كما تسمح القوائم المنسدلة في أعلى الصفحة بتقسيم العناصر إلى أربع بوابات رئيسية هي الأخبار والمعرفة والبرامج والتعليم.",
+      "gemini_clean": "كما تسمح القوائم المنسدلة في أعلى الصفحة بتقسيم العناصر إلى أربع بوابات رئيسية هي الأخبار والمعرفة والبرامج والتعليم",
+      "gemini_clean_judge": "كما تسمح القوائم المنسدلة في أعلى الصفحة بتقسيم العناصر إلى أربع بوابات رئيسية، هي: الأخبار، والمعرفة، والبرامج، والتعليم.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0018.wav",
+      "ref": "xasira Alomunotaxabu AlomiSoriy~u >amosi >amaAma muDiyfihi Als~anigaAliy~i bihadafayoni duwna rad~K - fiy AfotitaAHi munaAfasaAti AlomajomuwEapi Als~aAbiEapi lilt~aSofiyaAti Alomu&ah~ilapi - <ilaY ka>osi Alo>umami Alo>aforiyqiy~api likurapi Aloqadamo",
+      "whisper_improved": "خسر المنتخب المصري أمس أمام مضيفه السنغالي بهدفين دون رد في افتتاح منافسات المجموعة السابعة للتصفيات المؤهلة إلى كأس الأمم الأفريقية لكرة القدم.",
+      "gemini_clean": "خسر المنتخب المصري امس امام مضيفه السنغالي بهدفين دون رد في افتتاح منافسات المجموعة السابعة للتصفيات المؤهلة إلى كأس الأمم الأفريقية لكرة القدم",
+      "gemini_clean_judge": "خسر المنتخب المصري أمس أمام مضيفه السنغالي بهدفين دون رد، في افتتاح منافسات المجموعة السابعة للتصفيات المؤهلة إلى كأس الأمم الأفريقية لكرة القدم.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0019.wav",
+      "ref": "wasAdoyuw maAniy fiy Ald~aqiyqatayoni Als~AbiEapa Ea$orapa - wa AloxaAmisapa waAlo>arobEyna mina Al$~awoTi Alo>aw~ali lilomubaAraApi",
+      "whisper_improved": "وساد يوماني في الدقيقتين السابعة عشرة والخامسة والأربعين من الشوط الأول للمباراة",
+      "gemini_clean": "وساديو ماني في الدقيقتين السابعة عشرة والخامسة والاربعين من الشوط الاول للمباراة",
+      "gemini_clean_judge": "وساديو ماني في الدقيقتين السابعة عشرة، والخامسة والأربعين من الشوط الأول للمباراة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0020.wav",
+      "ref": "wabiha*ihi Aln~atiyjapi tataSad~aru Als~inigaAlu majomuwEatahaA biraSiydi ^alA^i niqaATK wahadafayoni naZiyfayono",
+      "whisper_improved": "وبهذه النتيجة تتصدر السنيغال مجموعتها برصيد ثلاث نقاط وهدفين نظيفين",
+      "gemini_clean": "وبهذه النتيجة تتصدر السنغال مجموعتها برصيد ثلاث نقاط وهدفين نظيفين",
+      "gemini_clean_judge": "وبهذه النتيجة، تتصدر السنغال مجموعتها برصيد ثلاث نقاط وهدفين نظيفين.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0021.wav",
+      "ref": "daEati AlowilaAyaAtu Alomut~aHidapu <isorA}yla <ilaY Alt~arAjuEi Eano qaraArihA bimuSAdarapi >arobaEa mi}api hikotArK - mino >arADiy AlD~ifapi Alogaroby~api",
+      "whisper_improved": "دعات الولايات المتحدة إسرائيل إلى التراجع عن قرارها بمصادرة 400 هكتار من أراضي الضفة الغربية",
+      "gemini_clean": "دعت الولايات المتحدة إسرائيل إلى التراجع عن قرارها بمصادرة أربعمئة هكتار من أراضي الضفة الغربية",
+      "gemini_clean_judge": "دعت الولايات المتحدة إسرائيل إلى التراجع عن قرارها بمصادرة 400 هكتار من أراضي الضفة الغربية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0022.wav",
+      "ref": "kamA AEotabarato munaZamapu AloEafowi Ald~awly~apu AloqarAra Alo<isorA}iyliy gayra qaAnuwniy~K - wayajibu <ilogA&uhu fawrAF",
+      "whisper_improved": "كما اعتبرت منظمة العفو الدولية القرار الإسرائيلي غير قانوني ويجب إلغاؤه فورا",
+      "gemini_clean": "كما اعتبرت منظمة العفو الدولية القرار الإسرائيلي غير قانوني ويجب إلغاؤه فورا",
+      "gemini_clean_judge": "كما اعتبرت منظمة العفو الدولية القرار الإسرائيلي غير قانوني، ويجب إلغاؤه فورًا.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0023.wav",
+      "ref": "yarotabiTu Alowarodu bayona Aln~aAsi biAlS~abaAHaAti waAlomasaA'aAti waAlohadaAyaA waAlz~iyaAraAti - >am~aA Einoda >aholi AlT~aA}ifi fahuwa ArotibaATN ruwHiy~N wataAriyxiy~N waEi$oqN mutabaAdalN",
+      "whisper_improved": "يرتبط الورد بين الناس بالصباحات والمساءات والهدايا والزيارات أما عند أهل الطائف فهو ارتباط روحي وتاريخي وعشق متبادل",
+      "gemini_clean": "يرتبط الورد بين الناس بالصباحات والمساءات والهدايا والزيارات أما عند أهل الطائف فهو ارتباط روحي وتاريخي وعشق متبادل",
+      "gemini_clean_judge": "يرتبط الورد بين الناس بالصباحات، والمساءات، والهدايا، والزيارات، أما عند أهل الطائف فهو ارتباط روحي، وتاريخي، وعشق متبادل.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0024.wav",
+      "ref": "yasoquwnahu wayaEorifuwnahu kamaA yaEorifuhumo - mino*u Aloqaroni Alt~aAsiEi Alohijoriy~i",
+      "whisper_improved": "يسقونه ويعرفونه كما يعرفهم منذ القرن التاسع الهجري",
+      "gemini_clean": "يسقونه ويعرفونه كما يعرفهم منذ القرن التاسع الهجري",
+      "gemini_clean_judge": "يُسقونه ويعرفونه كما يعرفونهم منذ القرن التاسع الهجري.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0025.wav",
+      "ref": "wa>aEobaquhaA maA yurowaY mino miyaAhi AlomaTari - walamo yu&o*ihi qar~N >awo Har~N",
+      "whisper_improved": "وأعبقها ما يروى من مياه المطر ولم يؤذه قر أو حر",
+      "gemini_clean": "وأعبقها ما يروى من مياه المطر ولم يؤذه قر أو حر",
+      "gemini_clean_judge": "وأعشابها تُروى من مياه المطر، ولم يؤذها قرٌّ أو حرٌّ.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0026.wav",
+      "ref": "wafiy kul~i EaAmK mino mawosimi Alowarodi AlT~aA}ifiy~o - nihaAyapa maAroso - |*aAra - wa>awaA}ila >aboriylo - niysaAno - turowaY qiS~apu Hub~K bayonahu wabayona >aholihi EalaY qimami wasufuwHi jibaAli AlT~aA}ifo",
+      "whisper_improved": "وفي كل عام من موسم الورد الطائفي نهاية مارس آذار وأوائل أبريل نيسان تروى قصة حب بينه وبين أهله على قمم وسفوح جبال الطائف",
+      "gemini_clean": "وفي كل عام من موسم الورد الطائفي نهاية مارس آذار وأوائل أبريل نيسان تروى قصة حب بينه وبين اهله على قمم وسفوح جبال الطائف",
+      "gemini_clean_judge": "وفي كل عام من موسم الورد الطائفي، نهاية مارس (آذار) وأوائل أبريل (نيسان)، تُروى قصة حب بينه وبين أهله على قمم وسفوح جبال الطائف.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0027.wav",
+      "ref": "watuEorafu ha*ihi AlZ~aAhirapu biAlomaTari Al$~ihaAbiy~i >awoAlr~ax~api Al$~ihaAbiy~api",
+      "whisper_improved": "وتعرف هذه الظاهرة بالمطر الشهابي أو الرخة الشهابية",
+      "gemini_clean": "وتعرف هذه الظاهرة بالمطر الشهابي أو الرخة الشهابية",
+      "gemini_clean_judge": "وتُعرف هذه الظاهرة بالمطر الشهابي أو الزخة الشهابية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0028.wav",
+      "ref": "fayadoxulu madaAru Alo>aroDi fiy niTaAqi Al*~uywli Alt~uraAbiy~api lilomu*an~abi",
+      "whisper_improved": "فيدخل مدار الأرض في نطاق الزيول الترابية للمذنب",
+      "gemini_clean": "فيدخل مدار الأرض في نطاق الذيول الترابية للمذنب",
+      "gemini_clean_judge": "فيدخل مدار الأرض في نطاق الذيول الترابية للمذنب.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0029.wav",
+      "ref": "lakin~a majomuwEapF mino EulamaA'i Aln~afosi Alo>amirikiy~iyna tawaS~aluwA lisababi *alika wahuwa >an~a dumuwEa AlofaraHi - qado takuwnu Tariyqapa Alojisomi AlS~aHiyHapi liAsotiEaAdapi Alt~awaAzuni AloEaATifiy~i - biha*ihi Alt~aEobiyraAti",
+      "whisper_improved": "لكن مجموعة من علماء النفس الأميركيين توصلوا لسبب ذلك وهو أن دموع الفرح قد تكون طريقة الجسم الصحيحة لاستعادة التوازن العاطفي بهذه التعبيرات",
+      "gemini_clean": "لكن مجموعة من علماء النفس الامريكيين توصلوا لسبب ذلك وهو ان دموع الفرح قد تكون طريقة الجسم الصحيحة لاستعادة التوازن العاطفي بهذه التعبيرات",
+      "gemini_clean_judge": "لكن مجموعة من علماء النفس الأمريكيين توصلوا لسبب ذلك، وهو أن دموع الفرح قد تكون طريقة الجسم الصحيحة لاستعادة التوازن العاطفي بهذه التعبيرات.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0030.wav",
+      "ref": "yasotaEiydu Alofaranosiy~u baAtoriyko muwdoyaAnuw >aloHaA}izuEalaY jaA}izapi nuwbalo lilo|daAbi - >alofoyoni wa>arobaEapa Ea$ara - fiy riwaAyatihi - Eu$obu All~ayaAliy - SuwrapF HaAlikapF libaAriysa >a^onaA'a AloHarobi AloEaAlamiy~api Al^~aAniy~api wamaA talaAhaA",
+      "whisper_improved": "يستعد الفرنسي باتريك موديانو الحائز على جائزة نوبل للآداب 2014 في روايته عشب الليالي صورة حالكة لباريس أثناء الحرب العالمية الثانية وما تلاها",
+      "gemini_clean": "يستعيد الفرنسي باتريك موديانو الحائز على جائزة نوبل للآداب ألفين وأربعة عشر في روايته عشب الليالي صورة حالكة لباريس أثناء الحرب العالمية الثانية وما تلاها",
+      "gemini_clean_judge": "يستعيد الفرنسي باتريك موديانو، الحائز على جائزة نوبل للآداب عام 2014، في روايته «عشب الليالي» صورةً حالكةً لباريس أثناء الحرب العالمية الثانية وما تلاها.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0031.wav",
+      "ref": "wakayofa taHaw~alato mino madiynapK lilo>anowaAri <ilaY madiynapK lilo>a$obaAHo",
+      "whisper_improved": "وكيف تحولت من مدينة للأنوار إلى مدينة للأشباح؟",
+      "gemini_clean": "وكيف تحولت من مدينة للأنوار إلى مدينة للأشباح",
+      "gemini_clean_judge": "كيف تحولت من مدينةٍ للأنوار إلى مدينةٍ للأشباح؟",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0032.wav",
+      "ref": ">alr~aAwiy juwn mu^aq~afN baAriysiy~N musin~N",
+      "whisper_improved": "الراوي جون مثقف باريسي مسن.",
+      "gemini_clean": "الراوي جون مثقف باريسي مسن",
+      "gemini_clean_judge": "الراوي جون، مثقف باريس، مسن.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0033.wav",
+      "ref": "laEal~a Alz~amana AlofaASila bayona AlomaroHalatayoni yuwaD~iHu lahu maA AsotaEoSaY EalaY fahomihi HiynahaA",
+      "whisper_improved": "لعل الزمن الفاصل بين المرحلتين يوضح له مستعصى على فهمه حينها",
+      "gemini_clean": "لعل الزمن الفاصل بين المرحلتين يوضح له ما استعصى على فهمه حينها",
+      "gemini_clean_judge": "لعل الزمن الفاصل بين المرحلتين يوضح له ما استعصى على فهمه حينها.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0034.wav",
+      "ref": "wayuEar~ifu Alomu&a$~iru AloEubuwdiy~apa AloHadiy^apa - biHajozi AloHur~iy~api waAlomanoEi mina Als~afari- wamanoEi AloHuquwqi waAlo<ijobaAri EalaY AloEamali - >awi Alz~awaAji >awi AliAsotiEobaAdi Alojinosiy~i",
+      "whisper_improved": "ويعرف المؤشر العبودية الحديثة بحجز الحرية والمنع من السفر ومنع الحقوق والإجبار على العمل أو الزواج أو الاستعباد الجنسي",
+      "gemini_clean": "ويعرف المؤشر العبودية الحديثة بحجز الحرية والمنع من السفر ومنع الحقوق والإجبار على العمل أو الزواج أو الاستعباد الجنسي",
+      "gemini_clean_judge": "يُعرِّف مؤشر العبودية الحديثة بأنها حجز الحرية، والمنع من السفر، ومنع الحقوق، والإجبار على العمل أو الزواج أو الاستعباد الجنسي.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0035.wav",
+      "ref": "wakaAna Alo>amoru yaboduw maqobuwlAF lawo SaAHabahu $aroTu <ijaAdapi All~ugapi AloEarabiy~api",
+      "whisper_improved": "وكان الأمر يبدو مقبولا لو صاحبه شرط إيجادة اللغة العربية",
+      "gemini_clean": "وكان الأمر يبدو مقبولا لو صاحبه شرط إجادة اللغة العربية",
+      "gemini_clean_judge": "كان الأمر يبدو مقبولًا، لو صاحبه شرط إجادة اللغة العربية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0036.wav",
+      "ref": "xaAS~apF fiy Alt~awoZiyfi biAlomu&as~asaAti AloEarabiy~api",
+      "whisper_improved": "خاصة في التوظيف بالمؤسسات العربية",
+      "gemini_clean": "خاصة في التوظيف بالمؤسسات العربية",
+      "gemini_clean_judge": "خاصةً في التوظيف بالمؤسسات العربية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0037.wav",
+      "ref": "<ilaY jaAnibi <ihomaAli AloEarabiy~api - balo EalaY HisaAbi ta$owiyhihaA",
+      "whisper_improved": "إلى جانب إهمال العربية بل على حساب تشويهها",
+      "gemini_clean": "إلى جانب إهمال العربية بل على حساب تشويهها",
+      "gemini_clean_judge": "إلى جانب إهمال العربية، بل على حساب تشويهها.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0038.wav",
+      "ref": ">am~aA fiy lugapi Alt~axaATubi waAlokalaAmi faHad~i^o walaA Harajo",
+      "whisper_improved": "أما في لغة التخاطب والكلام فحدث ولا حرج",
+      "gemini_clean": "أما في لغة التخاطب والكلام فحدث ولا حرج",
+      "gemini_clean_judge": "أما في لغة التخاطب والكلام، فحدث ولا حرج.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0039.wav",
+      "ref": "Hat~aY tahaAwati AloEarabiy~apu fiy maraji kalaAmi AlomaqaAhiy waAl$~aAriEi wamu&as~asaAti AloEamali",
+      "whisper_improved": "حتى تهاوت العربية في مرج كلام المقاهي والشارع ومؤسسات العمل",
+      "gemini_clean": "حتى تهاوت العربية في مرج كلام المقاهي والشارع ومؤسسات العمل",
+      "gemini_clean_judge": "حتى تهدمت العربية في هرج كلام المقاهي والشارع ومؤسسات العمل.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0040.wav",
+      "ref": "Ha*~arato diraAsapN baAkisotaAniy~apN Hadiy^apN mino >an~a Alo>aEo$aAba AlT~ib~iy~apa qado taHowiy sumuwmAF - wafiToriy~aAtK tusab~ibu >amoraADAF qaAtilapF",
+      "whisper_improved": "حذرت دراسة باكستانية حديثة من أن الأعشاب الطبية قد تحوي سموما وفطريات تسبب أمراض قاتلة",
+      "gemini_clean": "حذرت دراسة باكستانية حديثة من أن الأعشاب الطبية قد تحوي سموما وفطريات تسبب أمراضا قاتلة",
+      "gemini_clean_judge": "حذرت دراسة باكستانية حديثة من أن الأعشاب الطبية قد تحوي سمومًا وفطريات تسبب أمراضًا قاتلة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0041.wav",
+      "ref": "waEa^aruwA EalaY fiToriy~aAtK wamurak~abaAtK saAm~apK fiy tisoEiyna biAlomi}api mina AlE~ay~inaAti",
+      "whisper_improved": "وعثروا على فطريات ومركبات سامة في 90% من العينات",
+      "gemini_clean": "وعثروا على فطريات ومركبات سامة في تسعين بالمئة من العينات",
+      "gemini_clean_judge": "وعثروا على فطريات ومركبات سامة في 90% من العينات.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0042.wav",
+      "ref": "Alobuwsonap hiya AloHarobu waAlomajaAziru waAlt~aTohiyru AloEiroqiy~u",
+      "whisper_improved": "البوسنة هي الحرب والمجازر والتطهير العرقي",
+      "gemini_clean": "البوسنة هي الحرب والمجازر والتطهير العرقي",
+      "gemini_clean_judge": "البوسنة هي الحرب والمجازر والتطهير العرقي.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0043.wav",
+      "ref": "ha*aA maA yatabaAdaru <ilaY Alo>a*ohaAni EinodamaA tu*okaru",
+      "whisper_improved": "هذا ما يتبادر إلى الأذهان عندما تذكر",
+      "gemini_clean": "هذا ما يتبادر إلى الأذهان عندما تذكر",
+      "gemini_clean_judge": "هذه الأشياء التي تظهر عند فتح الباب.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0044.wav",
+      "ref": "lakin~a Aln~aAsa yugofiluwna Haqiyqapa >an~a ha*ihi AlobilaAda kaAnato marokazAF lil^~aqaAfapi waAlofan~i fiy Eahodi Alo<it~iHaAdi AloyuwgusolaAfiy~i Als~aAbiqi",
+      "whisper_improved": "لكن الناس يغفلون حقيقة أن هذه البلاد كانت مركزا للثقافة والفن في عهد الاتحاد اليوغسلافي السابق",
+      "gemini_clean": "لكن الناس يغفلون حقيقة أن هذه البلاد كانت مركزا للثقافة والفن في عهد الاتحاد اليوغسلافي السابق",
+      "gemini_clean_judge": "لكن الناس يغفلون حقيقة أن هذه البلاد كانت مركزًا للثقافة والفن في عهد الاتحاد اليوغسلافي السابق.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0045.wav",
+      "ref": "ladayonaA daAru >uwb~iraA kaAna fiyhaA >afoDalu mugan~iy Alo>uwb~raA fiy AloEaAlami ragoma Sigari HajomihaA",
+      "whisper_improved": "لدينا دار أوبرا كان فيها أفضل مغني الأوبرا في العالم رغم صغر حجمها",
+      "gemini_clean": "لدينا دار أوبيرا كان فيها أفضل مغني الأوبيرا في العالم رغم صغر حجمها",
+      "gemini_clean_judge": "لدينا دار أوبرا كانت فيها أفضل مغني الأوبرا في العالم، رغم صغر حجمها.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0046.wav",
+      "ref": "mugan~iyapu Alo>uwb~iraA Alobuwsoniy~apu AloEaAlamiy~apu wamudar~isapu AloginaA'i fiy >akaAdiymiyapi AlomuwsiyqaY - biAloEaASimapi saraAyiyfuw",
+      "whisper_improved": "مغنية الأوبرا البوسنية العالمية ومدرسة الغناء في أكاديمية الموسيقى بالعاصمة سراييفو",
+      "gemini_clean": "مغنية الأوبرا البوسنية العالمية ومدرسة الغناء في أكاديمية الموسيقى بالعاصمة سراييفو",
+      "gemini_clean_judge": "مغنية الأوبرا البوسنية العالمية، ومدرسة الغناء في أكاديمية الموسيقى بالعاصمة سراييفو.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0047.wav",
+      "ref": ">al~atiy haraba <ilayohaA mino zagoribo wabalograAdo EadadN kabiyrN mino >aborazi fan~aAniy yuwgusolaAfoyaA Als~aAbiqapi - bisababi At~ijaAhaAtihimo Als~iyaAsiy~api fiy AloHiqobapi Al$~uyuwEiy~api",
+      "whisper_improved": "التي هرب إليها من زاغرب وبلغراد عدد كبير من أبرز فناني يغسلافيا السابقة بسبب اتجاهاتهم السياسية في الحقبة الشيوعية",
+      "gemini_clean": "التي هرب إليها من زاغرب وبلغراد عدد كبير من أبرز فناني يوغسلافيا السابقة بسبب اتجاهاتهم السياسية في الحقبة الشيوعية",
+      "gemini_clean_judge": "التي هرب إليها من زاغرب وبلغراد عدد كبير من أبرز فناني يوغسلافيا السابقة، بسبب اتجاهاتهم السياسية في الحقبة الشيوعية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0048.wav",
+      "ref": "^alaA^apu >arobaAEihimo nisaA'N",
+      "whisper_improved": "ثلاثة أرباعهم نساء",
+      "gemini_clean": "ثلاثة أرباعهم نساء",
+      "gemini_clean_judge": "في الحقيقة، هم مهندسون.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0049.wav",
+      "ref": "wakaAnati Aln~ataA}iju Al~atiy xalaSato <ilayohaA mu*ohilapN",
+      "whisper_improved": "وكانت النتائج التي خلصت إليها مذهلة",
+      "gemini_clean": "وكانت النتائج التي خلصت إليها مذهلة",
+      "gemini_clean_judge": "وكانت النتائج التي خلصت إليها مذهلة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0050.wav",
+      "ref": "EalaY Had~i qawoli AlobaAHi^api",
+      "whisper_improved": "على حد قول الباحثة",
+      "gemini_clean": "على حد قول الباحثة",
+      "gemini_clean_judge": "وفقًا للدكتور...",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0051.wav",
+      "ref": "wahiya ZaAhirapN EaAlamiy~apN Tafato EalaY Als~aToHi biquw~apK muno*u sit~iyniy~aAti Aloqaroni AlomaADiy",
+      "whisper_improved": "وهي ظاهرة عالمية طفت على السطح بقوة منذ ستينيات القرن الماضي",
+      "gemini_clean": "وهي ظاهرة عالمية طفت على السطح بقوة منذ ستينيات القرن الماضي",
+      "gemini_clean_judge": "وهي ظاهرة عالمية طفت على السطح بقوة منذ ستينيات القرن الماضي.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0052.wav",
+      "ref": "musab~ibapF xasaA}ira ba$ariy~apF waAqotiSaAdiy~apF wabiy}iy~apF faAdiHapF",
+      "whisper_improved": "مسببة خسائر بشرية واقتصادية وبيئية فادحة",
+      "gemini_clean": "مسببة خسائر بشرية واقتصادية وبيئية فادحة",
+      "gemini_clean_judge": "مسببةً خسائر بشرية، واقتصادية، وبيئية فادحة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0053.wav",
+      "ref": "watu$ak~ilu nisobapu AlomasaAHaAti AlomutaSaH~irapi waAlo>araADiy AloqaAHilapi fiy AlomanoTiqapi - HwaAlayo ^amaAniyapK wa^amAniyna biAlomi}api mino <ijomaAliy~i AlomasaAHapi Alokul~iy~api",
+      "whisper_improved": "وتشكل نسبة المساحات المتصحرة والأراضي القاحلة في المنطقة حوالي 88% من إجمالي المساحة الكلية",
+      "gemini_clean": "وتشكل نسبة المساحات المتصحرة والأراضي القاحلة في المنطقة حوالي ثمانية وثمانين بالمئة من إجمالي المساحة الكلية",
+      "gemini_clean_judge": "في عام 2020، تم تسجيل زيادة في عدد السكان بنسبة 5% مقارنة بالعام السابق.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0054.wav",
+      "ref": ">ayo HawaAliyo ^amaAniyapK waEi$oryna biAlomi}api mino <ijomaAliy~i AlomanaATiqi AlomutaSaH~irapi - EalaY musotawaY AloEaAlamo",
+      "whisper_improved": "أي حوالي 28% من إجمالي المناطق المتصحرة على مستوى العالم",
+      "gemini_clean": "أي حوالي ثمانية وعشرين بالمئة من إجمالي المناطق المتصحرة على مستوى العالم",
+      "gemini_clean_judge": "أي حوالي 28% من إجمالي المناطق المتصحرة على مستوى العالم.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0055.wav",
+      "ref": "wakaAna maArokiyzu qado kaAfaHa lisanawaAtK kayo yaSonaEa Asomahu riwaA}iy~AF",
+      "whisper_improved": "وكان ماركيز قد كافح لسنوات كي يصنع اسمه روائياً",
+      "gemini_clean": "وكان ماركيز قد كافح لسنوات كي يصنع اسمه روائيا",
+      "gemini_clean_judge": "كان ماركيز قد كافح لسنوات كي يصنع اسمه روائيًا.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0056.wav",
+      "ref": "fana$ara qiSaSAF wamaqaAlaAtK waEid~apa riwaAyaAtK qaSiyrapK fiy Aloxamosiyniy~aAti waAls~it~iyniy~aAti",
+      "whisper_improved": "فنشر قصص ومقالات وعدة روايات قصيرة في الخمسينيات والستينيات",
+      "gemini_clean": "فنشر قصصا ومقالات وعدة روايات قصيرة في الخمسينيات والستينيات",
+      "gemini_clean_judge": "فنشر قصصًا ومقالات وعدة روايات قصيرة في الخمسينيات والستينيات.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0057.wav",
+      "ref": "taDam~anato laA}iHapu >aqowaY mi}api $axoSiy~apK mu&a^~irapK fiy AloEaAlami liha*aA AloEaAmi - wAHidapN wa>arobaEyna Amora>apF mino >aSoli mi}apK",
+      "whisper_improved": "تضمنت لائحة أقوى مئة شخصية مؤثرة في العالم لهذا العام 41 امرأة من أصل مئة",
+      "gemini_clean": "تضمنت لائحة أقوى مئة شخصية مؤثرة في العالم لهذا العام واحدة وأربعين امرأة من أصل مئة",
+      "gemini_clean_judge": "تضمنت لائحة أقوى مئة شخصية مؤثرة في العالم لهذا العام 41 امرأةً من أصل مئة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0058.wav",
+      "ref": "waAln~aA$iTapu AlobaAkisotaAniy~apu malaAlA yuwsufo zaAy",
+      "whisper_improved": "والناشطة الباكستانية ملالا يوسف زاي",
+      "gemini_clean": "والناشطة الباكستانية ملالا يوسف زاي",
+      "gemini_clean_judge": "والناشطة الباكستانية ملالا يوسفزاي.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0059.wav",
+      "ref": "kamaA taDam~anato All~aA}iHapu ra}iysapa to$iyliy",
+      "whisper_improved": "كما تضمنت اللائحة رئيسة تشيلي",
+      "gemini_clean": "كما تضمنت اللائحة رئيسة تشيلي",
+      "gemini_clean_judge": "كما تضمنت اللائحة رئيسة تشيلي.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0060.wav",
+      "ref": "qaAla EulamaA'u Haforiy~aAtK mina Alo>arojanotiyna <in~ahumo Ea^aruwA EalaY >uHofuwriy~aAtK yaEotaqiduwna >an~ahaA - taEuwdu li>aDoxami diynaASuwrK EaA$a EalaY saToHi Alo>aroDi EalaY Alo<iTolaAqo",
+      "whisper_improved": "قال علماء حفريات من الأرجنتين إنهم عثروا على أحفوريات يعتقدون أنها تعود لأضخم ديناصور عاش على سطح الأرض على الإطلاق",
+      "gemini_clean": "قال علماء حفريات من الارجنتين انهم عثروا على احفوريات يعتقدون انها تعود لاضخم ديناصور عاش على سطح الارض على الاطلاق",
+      "gemini_clean_judge": "قال علماء حفريات من الأرجنتين، إنهم عثروا على أحفوريات يعتقدون أنها تعود لأضخم ديناصور عاش على سطح الأرض على الإطلاق.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0061.wav",
+      "ref": "waTuwluhu mino ra>osihi <ilaY Tarafi *ayolihi >arobaEiyna mitorAF",
+      "whisper_improved": "وطوله من رأسه إلى طرف ذيله أربعين متراً",
+      "gemini_clean": "وطوله من رأسه إلى طرف ذيله أربعين مترا",
+      "gemini_clean_judge": "وطوله من رأسه إلى طرف ذيله أربعين مترًا.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0062.wav",
+      "ref": "waEaA$a qabola xamosapK watisoEyna miloyuwna sanapK xilaAla >awaAxiri AloEaSori AlT~abaA$iyriy",
+      "whisper_improved": "وعاش قبل 95 مليون سنة خلال أواخر العصر التباشيري",
+      "gemini_clean": "وعاش قبل خمسة وتسعين مليون سنة خلال أواخر العصر الطباشيري",
+      "gemini_clean_judge": "وعاش قبل تسعين مليون سنة خلال أواخر العصر الطباشيري.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0063.wav",
+      "ref": "waEa^ara AloEulamaA'u EalaY tiloka Alo>uHofuwriy~aAti fiy mizoraEapK liEaA}ilapK riyfiy~apK - fiy manoTiqapi baAtaAguwnoyaA - >alo>arojanotiyniy~api",
+      "whisper_improved": "وعثر العلماء على تلك الأحفوريات في مزرعة لعائلة ريفية في منطقة باتاغونيا الأرجنتينية",
+      "gemini_clean": "وعثر العلماء على تلك الأحفوريات في مزرعة لعائلة ريفية في منطقة باتاغونيا الأرجنتينية",
+      "gemini_clean_judge": "بالتأكيد، سأقوم بمراجعة النص وتصحيحه وفقًا للتعليمات.\n\n**النص النهائي:**\n\nملاحظة: لم يتم العثور على أي أخطاء واضحة في النص الأساس، لذا تم تقديم النص كما هو دون أي تغييرات.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0064.wav",
+      "ref": "kAna Alo>amalu maEoquwdAF EalaY >ano takuwna ^aworaAtu Alr~abiyEi AloEarabiy~i faAtiHapa xayorK litaHoqiyqi - diymuqoraATiy~aAtK raAsixapK fiy AlomujotamaEaAti AloEarabiy~api",
+      "whisper_improved": "كان الأمل معقودا على أن تكون ثورات الربيع العربي فاتحة خير لتحقيق ديمقراطيات راسخة في المجتمعات العربية",
+      "gemini_clean": "كان الأمل معقودا على أن تكون ثورات الربيع العربي فاتحة خير لتحقيق ديمقراطيات راسخة في المجتمعات العربية",
+      "gemini_clean_judge": "كان الأمل معقودًا على أن تكون ثورات الربيع العربي فاتحة خيرٍ لتحقيق ديمقراطيات راسخة في المجتمعات العربية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0065.wav",
+      "ref": "yuEaAliju maA kar~asatohu dikotaAtuwriy~apu Aln~uZumi AloEarabiy~api EalaY madaAri AloEuquwdi AlomaADiyapi",
+      "whisper_improved": "يعالج ما كرسته ديكتاتورية النظم العربية على مدار العقود الماضية",
+      "gemini_clean": "يعالج ما كرسته دكتاتورية النظم العربية على مدار العقود الماضية",
+      "gemini_clean_judge": "يعالج ما كرّسته ديكتاتورية النظم العربية على مدار العقود الماضية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0066.wav",
+      "ref": "wariEaAyapK SiH~iy~apK tuHaq~iqu HayaApF >awofara HaZ~AF fiy AloqaDaA'i EalaY Alo>amoraADi Alomuzominapi",
+      "whisper_improved": "ورعاية صحية تحقق حياة أوفر حظا في القضاء على الأمراض المزمنة",
+      "gemini_clean": "ورعاية صحية تحقق حياة أوفر حظا في القضاء على الأمراض المزمنة",
+      "gemini_clean_judge": "ورعاية صحية تحقق حياةً أوفر حظًا في القضاء على الأمراض المزمنة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0067.wav",
+      "ref": "<il~aA >an~a Al^~aworaAti AlomuDaAd~api fiy duwali Alr~abiyEi AloEarabiy~i",
+      "whisper_improved": "إلا أن الثورات المضادة في دول الربيع العربي",
+      "gemini_clean": "إلا ان الثورات المضادة في دول الربيع العربي",
+      "gemini_clean_judge": "إلا أنَّ الثورات المضادة في دول الربيع العربي.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0068.wav",
+      "ref": "jaEalato Huloma $uEuwbi tiloka Ald~uwali yatawaAraY baEoDa Al$~ayo'i",
+      "whisper_improved": "جعلت حلم شعوب تلك الدول يتوارى بعض الشيء",
+      "gemini_clean": "جعلت حلم شعوب تلك الدول يتوارى بعض الشيء",
+      "gemini_clean_judge": "جعلت حلم شعوب تلك الدول يتوارى بعض الشيء.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0069.wav",
+      "ref": "wamina AlomunotaZari >ano yalotaqiya fiy Eam~aAna qiyaAdaAtK diyniy~apF <isolaAmiy~apF wamasiyHiy~apF",
+      "whisper_improved": "ومن المنتظر أن يلتقي في عمان قيادات دينية إسلامية ومسيحية",
+      "gemini_clean": "ومن المنتظر أن يلتقي في عمان قيادات دينية إسلامية ومسيحية",
+      "gemini_clean_judge": "ومن المنتظر أن يلتقي في عمان قيادات دينية إسلامية ومسيحية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0070.wav",
+      "ref": "wawaj~aha AlobaAbaA frAno$iysokuw daEowapF <ilaY <iyjaAdi Hal~K silomiy~K liln~izaAEi fiy suwriyaA - waHal~K EaAdilK lilS~iraAEi Alo<isoraA}iyliy~i AlofilasoTiyniy~o",
+      "whisper_improved": "ووجه البابا فرانشيسكو دعوة إلى إيجاد حل سلمي للنزاع في سوريا وحل عادل للصراع الإسرائيلي الفلسطيني",
+      "gemini_clean": "ووجه البابا فرنشيسكو دعوة إلى إيجاد حل سلمي للنزاع في سوريا وحل عادل للصراع الإسرائيلي الفلسطيني",
+      "gemini_clean_judge": "ووجه البابا فرنسيس دعوة إلى إيجاد حل سلمي للنزاع في سوريا، وحل عادل للصراع الإسرائيلي الفلسطيني.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0071.wav",
+      "ref": "wayaDum~u AlomaEoriDu nusaxAF naAdirapF mina AlomaSaAHifi Alomu*ah~abapi",
+      "whisper_improved": "ويضم المعرض نسخا نادرة من المصاحف المذهبة",
+      "gemini_clean": "ويضم المعرض نسخا نادرة من المصاحف المذهبة",
+      "gemini_clean_judge": "ويضم المعرض نسخًا نادرة من المصاحف المذهبة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0072.wav",
+      "ref": "wa>uxoraY maxoTuwTapF laA yatajaAwazu HajomuhaA kaf~a Aloyadi",
+      "whisper_improved": "وأخرى مخطوطة لا يتجاوز حجمها كف اليد",
+      "gemini_clean": "وأخرى مخطوطة لا يتجاوز حجمها كف اليد",
+      "gemini_clean_judge": "وأخرى مخطوطة لا يتجاوز حجمها كف اليد.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0073.wav",
+      "ref": "wa>uxoraY kabiyrapF taziydu misaAHapu DiloEi AlS~afoHapi fiyhaA Eano xamosapK - wasit~iyna sanotimitorAF",
+      "whisper_improved": "وأخرى كبيرة تزيد مساحة ضلع الصفحة فيها عن 65 سنتيمتراً.",
+      "gemini_clean": "وأخرى كبيرة تزيد مساحة ضلع الصفحة فيها عن خمسة وستين سنتيمترا",
+      "gemini_clean_judge": "وأخرى كبيرة يزيد طول ضلع الصفحة فيها عن 65 سنتيمترًا.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0074.wav",
+      "ref": "faDolAF Eano nusaxK mutarojamapK limaEaAniy Aloquro|ni - kutibato biHuruwfi boriylo Alo<inojliyziy~api liloqur~aA'i Alomakofuwfiyno",
+      "whisper_improved": "فضلا عن نسخ مترجمة لمعاني القرآن كتبت بحروف بريل الإنجليزية للقراء المكفوفين",
+      "gemini_clean": "فضلا عن نسخ مترجمة لمعاني القرآن كتبت بحروف بريل الإنجليزية للقراء المكفوفين",
+      "gemini_clean_judge": "فضلًا عن نسخ مترجمة لمعاني القرآن، كتبت بحروف بريل الإنجليزية للقراء المكفوفين.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0075.wav",
+      "ref": "yuwaAjihu muEotaniquw Alo<isolaAmi Alojududu SuEuwbaAtK fiy AlS~iyaAmi naZarAF liTuwli fatorapi Aln~ahaAri- xilaAla $ahori ramaDaAna Al~atiy taSilu <ilaY ^amaAniya Ea$orapa saAEapF fiy Aloyawomo",
+      "whisper_improved": "يواجه معطنق الإسلام الجدد صعوبات في الصيام نظرا لطول فترة النهار خلال شهر رمضان التي تصل إلى ثمانية عشرة ساعة في اليوم",
+      "gemini_clean": "يواجه معتنقو الإسلام الجدد صعوبات في الصيام نظرا لطول فترة النهار خلال شهر رمضان التي تصل إلى ثمانية عشرة ساعة في اليوم",
+      "gemini_clean_judge": "يواجه معتنقو الإسلام الجدد صعوبات في الصيام، نظرًا لطول فترة النهار خلال شهر رمضان التي تصل إلى ثماني عشرة ساعة في اليوم.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0076.wav",
+      "ref": ">aZoharato diraAsapN Hadiy^apN >ajoratohaA jaAmiEapu saArolAnodo >alo>alomaAniy~apu - >an~a AsotixodaAma Alt~ukonuwluwjoyaA daAxila qaAEaAti Ald~arosi yu&ad~iy <ilaY ta$otiyti AnotibaAhi AlT~aAlibi - badala musaAEadatihi EalaY Alt~arokiyzi watasojiyli AlomulaAHaZaAti Ald~iraAsiy~api",
+      "whisper_improved": "أظهرت دراسة حديثة أجرتها جامعة سارلند الألمانية أن استخدام التكنولوجيا داخل قاعات الدرس يؤدي إلى تشتيت انتباه الطالب بدل مساعدته على التركيز وتسجيل الملاحظات الدراسية.",
+      "gemini_clean": "أظهرت دراسة حديثة أجرتها جامعة سالند الألمانية أن استخدام التكنولوجيا داخل قاعات الدرس يؤدي إلى تشتيت انتباه الطالب بدل مساعدته على التركيز وتسجيل الملاحظات الدراسية",
+      "gemini_clean_judge": "أظهرت دراسة حديثة أجرتها جامعة سالند الألمانية، أن استخدام التكنولوجيا داخل قاعات الدرس يؤدي إلى تشتيت انتباه الطالب بدل مساعدته على التركيز وتسجيل الملاحظات الدراسية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0077.wav",
+      "ref": "litaSaf~uHi Alo<inotironito >a^onaA'a Ald~arosi - wamumaArasapi >ano$iTapK layosa lahaA >ay~u EalaAqapK bimawoDuwEi AlomuHaADarapi >awi Ald~arosi",
+      "whisper_improved": "لتصفح الإنترنت أثناء الدرس ومبارسة أنشطة ليس لها أي علاقة بموضوع المحاضرة أو الدرس",
+      "gemini_clean": "لتصفح الانترنت أثناء الدرس وممارسة أنشطة ليس لها أي علاقة بموضوع المحاضرة أو الدرس",
+      "gemini_clean_judge": "لتصفح الإنترنت أثناء الدرس وممارسة أنشطة ليس لها أي علاقة بموضوع المحاضرة أو الدرس.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0078.wav",
+      "ref": "tako^uru Alo<iSaAbapu biAlo<inofilowanozaA xilaAla faSolay Aloxariyfi waAl$~itaA'i",
+      "whisper_improved": "تكثر الإصابة بالإنفلونزا خلال فصلي الخريف والشتاء",
+      "gemini_clean": "تكثر الإصابة بالإنفلونزا خلال فصلي الخريف والشتاء",
+      "gemini_clean_judge": "تكثر الإصابة بالإنفلونزا خلال فصلي الخريف والشتاء.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0079.wav",
+      "ref": "wabiAlt~aAliy yusaAEidu EalaY <iTofaA'i AloEaTa$i waEalaY Al$~uEuwri biAl$~ibaEi",
+      "whisper_improved": "وبالتالي يساعد على إطفاء العطش وعلى الشعور بالشبع",
+      "gemini_clean": "وبالتالي يساعد على إطفاء العطش وعلى الشعور بالشبع",
+      "gemini_clean_judge": "وبالتالي يساعد على إطفاء العطش وعلى الشعور بالشبع.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0080.wav",
+      "ref": "fahuwa yu&okalu TaAzijAF >awo muqaT~aEAF",
+      "whisper_improved": "فهو يؤكل طازجا أو مقطعا",
+      "gemini_clean": "فهو يؤكل طازجا أو مقطعا",
+      "gemini_clean_judge": "فهو يؤكل طازجًا أو مقطعًا.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0081.wav",
+      "ref": "kamaA yadoxulu fiy taHoDiyri Als~alaTapi AloxaDoraA'i",
+      "whisper_improved": "كما يدخل في تحضير الصلاة الخضراء",
+      "gemini_clean": "كما يدخل في تحضير السلطة الخضراء",
+      "gemini_clean_judge": "كما يدخل في تحضير السلطة الخضراء.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0082.wav",
+      "ref": "$ak~ala bayotu AloEanokabuwti namuw*ajAF limadiynapK taEotamidu EalaY Alo>a$okaAli Alohanodasiy~api AlomutanaAZirapi - watarotakizu EalaY muraAEaApi ^alaA^api EanaASira >asaAsiy~apK tataEal~aqu biAxotiyaAri AlomakaAni - waTariyqapi AlobinaA'i waAlomaw~aAd~i AlomusotaEomalapi waAl$~akoli AlomutawaAzini",
+      "whisper_improved": "شكل بيت العنكبوت نموذجا لمدينة تعتمد على الأشكال الهندسية المتناظرة وترتكز على مراعاة ثلاثة عناصر أساسية تتعلق باختيار المكان وطريقة البناء والمواد المستعملة والشكل المتوازن.",
+      "gemini_clean": "شكل بيت العنكبوت نموذجا لمدينة تعتمد على الاشكال الهندسية المتناظرة وترتكز على مراعاة ثلاثة عناصر أساسية تتعلق باختيار المكان وطريقة البناء والمواد المستعملة والشكل المتوازن",
+      "gemini_clean_judge": "شَكَّلَ بيت العنكبوت نموذجًا لمدينة تعتمد على الأشكال الهندسية المتناظرة، وترتكز على مراعاة ثلاثة عناصر أساسية: اختيار المكان، وطريقة البناء، والمواد المستعملة، والشكل المتوازن.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0083.wav",
+      "ref": ">aEolana waziyru Alo>aEomaAli AlobariyTaAniy~u fiynoso kabilo - >an~a wizaAratahu >aEoTati AlD~awo'a Alo>axoDara liha*aA Aln~awoEi mina Als~ay~aAraAti - lils~ayori fiy Al$~awaAriEi AbotidaA'F mino yanAyiro - kAnwna Al^~aAny - >alfayoni waxamosapa Ea$ar",
+      "whisper_improved": "أعلن وزير الأعمال البريطاني فينس كابل أن وزارته أعطت الضوء الأخضر لهذا النوع من السيارات للسير في الشوارع ابتداء من يناير كانون الثاني 2015.",
+      "gemini_clean": "أعلن وزير الأعمال البريطاني فينس كابل أن وزارته أعطت الضوء الأخضر لهذا النوع من السيارات للسير في الشوارع ابتداء من يناير كانون الثاني ألفين وخمسة عشر",
+      "gemini_clean_judge": "أعلن وزير الأعمال البريطاني، فينس كابل، أن وزارته أعطت الضوء الأخضر لهذا النوع من السيارات للسير في الشوارع ابتداءً من يناير (كانون الثاني) 2015.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0084.wav",
+      "ref": "waqaAla kiybolo - <in~a AloHukuwmapa AlbriyTaAniy~apa sata$oraEu fiy <idoxaAli taEodiylaAtK EalaY AloqawaAniyni - bimaA yasomaHu bitasoyiyri ha*ihi Als~ay~aAraAti fiy Al$~awaAriEi AloEaAm~api",
+      "whisper_improved": "وقال كيبل إن الحكومة البريطانية ستشرع في إدخال تعديلات على القوانين بما يسمح بتسيير هذه السيارات في الشوارع العامة.",
+      "gemini_clean": "وقال كيبل ان الحكومة البريطانية ستشرع في ادخال تعديلات على القوانين بما يسمح بتسيير هذه السيارات في الشوارع العامة",
+      "gemini_clean_judge": "وقال كيبل، إن الحكومة البريطانية ستشرع في إدخال تعديلات على القوانين بما يسمح بتسيير هذه السيارات في الشوارع العامة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0085.wav",
+      "ref": "waqado >a^aAra ha*aA AloqaraAru zawobaEapF mina Alo<iAnotiqaAdaAti bayona Sufuwfi AlomuEaAraDapi Alt~urokiy~api",
+      "whisper_improved": "وقد أثار هذا القرار زوبعة من الانتقادات بين صفوف المعارضة التركية",
+      "gemini_clean": "وقد أثار هذا القرار زوبعة من الانتقادات بين صفوف المعارضة التركية",
+      "gemini_clean_judge": "وقد أثار هذا القرار زوبعة من الانتقادات بين صفوف المعارضة التركية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0086.wav",
+      "ref": ">al~atiy At~ahamato >aroduwgaAn biAnotihaAki AloqawaAniyni watabo*iyri >amowaAli Al$~aEobi libinaA'i suloTapK linafosihi",
+      "whisper_improved": "التي اتهمت أردوغان بانتهاك القوانين وتبذير أموال الشعب لبناء سلطة لنفسه",
+      "gemini_clean": "التي اتهمت أردوغان بانتهاك القوانين وتبذير أموال الشعب لبناء سلطة لنفسه",
+      "gemini_clean_judge": "التي اتهمت أردوغان بانتهاك القوانين، وتبذير أموال الشعب لبناء سلطته لنفسه.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0087.wav",
+      "ref": "<il~aA >an~a mu&ay~idiy Alr~a}iysi yaEotabiruwna AloqaSora Alr~i}aAsiy~a Alojadiyda mafoxarapF lil$~aEobi Alt~urokiy~i - watajosiydAF li$iEaAri turokiyaA Alojadiydap",
+      "whisper_improved": "إلا أن مؤيدين الرئيس يعتبرون القصر الرئاسي الجديد مفخرة للشعب التركي وتجزيدا لشعار تركيا الجديدة",
+      "gemini_clean": "إلا أن مؤيدي الرئيس يعتبرون القصر الرئاسي الجديد مفخرة للشعب التركي وتجسيدا لشعار تركيا الجديدة",
+      "gemini_clean_judge": "إلا أن مؤيدي الرئيس يعتبرون القصر الرئاسي الجديد مفخرةً للشعب التركي، وتجسيدًا لشعار \"تركيا الجديدة\".",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0088.wav",
+      "ref": "EaraDati Alofan~aAnapu Alt~urokiy~apu <iydaA >awozokaAno masaA'a >amosi lawoHaAtK lifan~i Alo<iboruw - >alr~asomu EalaY AlomaA'i - fiy mutoHafi maHomuwdo darowiy$o bimadiynapi raAma Allh biAlD~if~api Alogarobiy~api - biHuDuwrK rasomiy~K wa$aEobiy~K",
+      "whisper_improved": "عرضت الفنانة التركية إيدا أوزكان مساء أمس لوحات لفن الإبرو الرسم على الماء في متحف محمود درويش بمدينة رامالله بالضفة الغربية بحضور رسمي وشعبي.",
+      "gemini_clean": "عرضت الفنانة التركية إيدا أوزكان مساء أمس لوحات لفن الإبرو الرسم على الماء في متحف محمود درويش بمدينة رام الله بالضفة الغربية بحضور رسمي وشعبي",
+      "gemini_clean_judge": "بالتأكيد، أنا جاهز. بصفتي خبيرًا في تحسين جودة النصوص العربية، لقد فهمت التعليمات بدقة. سأقوم بتصحيح الأخطاء الإملائية والنحوية، وإضافة علامات الترقيم المناسبة، وضبط المسافات، مع الحفاظ الكامل على المحتوى الأصلي والأسماء والمصطلحات.\n\nوقد أخذت علمًا بالملاحظة الخاصة بكلمة \"رامالله\".\n\n**تفضل، أرسل لي النص للمعالجة، وسأقوم بمهمتي على الفور.**",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0089.wav",
+      "ref": "w$amila AlomaEoraDu lawoHaAtK fan~iy~apF mino rasomi >awozokaAno",
+      "whisper_improved": "وشمل المعرض لوحات فنية من رسم أوزكان",
+      "gemini_clean": "وشمل المعرض لوحات فنية من رسم أوزكان",
+      "gemini_clean_judge": "وشمل المعرض لوحات فنية من رسم أوزكان.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0090.wav",
+      "ref": "wawaqafa AloHuDuwru daqiyqapa SamotK HidaAdAF EalaY DaHaAyaA Alohujuwmi fiy Als~aAEapi Al^~aAminapi waAlr~uboEi SabaAHAF - biAlt~awoqiyti AlomaHal~iy~i",
+      "whisper_improved": "ووقف الحضور دقيقة صمت حداد على ضحايا الهجوم في الساعة الثامنة والربع صباحا بالتوقيت المحلي",
+      "gemini_clean": "ووقف الحضور دقيقة صمت حدادا على ضحايا الهجوم في الساعة الثامنة والربع صباحا بالتوقيت المحلي",
+      "gemini_clean_judge": "ووقف الحضور دقيقة صمت حدادًا على ضحايا الهجوم في الساعة الثامنة والربع صباحًا بالتوقيت المحلي.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0091.wav",
+      "ref": "wahiya All~aHoZapu Al~atiy >uloqiyato fiyhaA Aloqunobulapu Alo>amirikiy~apu EalaY Alomadiynapi",
+      "whisper_improved": "وهي اللحظة التي ألقيت فيها القنبلة الأمريكية على المدينة",
+      "gemini_clean": "وهي اللحظة التي ألقيت فيها القنبلة الأمريكية على المدينة",
+      "gemini_clean_judge": "وهي اللحظة التي أُلقيت فيها القنبلة الأمريكية على المدينة.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0092.wav",
+      "ref": "wahuwa maA sayusaAEiduhumo EalaY Alo<iqotinaAEi biDaraworapi Alt~axal~iy bi$aklK EaAjilK Eano ha*aA Als~ilaAHi Al$~ayoTaAniy~i",
+      "whisper_improved": "وهو ما سيساعدهم على الاقتناع بضرورة التخلي بشكل عاجل عن هذا السلاح الشيطاني",
+      "gemini_clean": "وهو ما سيساعدهم على الاقتناع بضرورة التخلي بشكل عاجل عن هذا السلاح الشيطاني",
+      "gemini_clean_judge": "وهو ما سيساعدهم على الاقتناع بضرورة التخلي بشكل عاجل عن هذا السلاح الشيطاني.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0093.wav",
+      "ref": "mim~aA yajoEalu ta>o^iyrahu EalaY AlS~iH~api mu$aAbihAF lita>o^iyri AloyuwgaA",
+      "whisper_improved": "مما يجعل تأثيره على الصحة مشابها لتأثير اليوغا",
+      "gemini_clean": "مما يجعل تاثيره على الصحة مشابها لتاثير اليوجا",
+      "gemini_clean_judge": "ما يجعل تأثيره على الصحة مشابهًا لتأثير اليوجا.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0094.wav",
+      "ref": "watawaS~ala AlobaAHi^u Alomuwsiyqiy~u Alo>alomaAniy~u - guwno^oro koruwyotoso - <ilaY ha*ihi Aln~atiyjapi baEoda <ijoraA}ihi tajoribapF - EalaY majomuwEapi mugan~iyna fiy jawoqapK muwsiyqiy~apK",
+      "whisper_improved": "وتوصل الباحث الموسيقي الألماني كونثر كرويتس إلى هذه النتيجة بعد إجرائه تجربة على مجموعة مغنين في جوقة موسيقية",
+      "gemini_clean": "وتوصل الباحث الموسيقي الألماني غونثر كرويتس إلى هذه النتيجة بعد إجرائه تجربة على مجموعة مغنين في جوقة موسيقية",
+      "gemini_clean_judge": "وتوصل الباحث الموسيقي الألماني غونثر كرويتس إلى هذه النتيجة بعد إجرائه تجربةً على مجموعة مغنين في جوقة موسيقية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0095.wav",
+      "ref": "wanaSaHati Ald~iraAsapu bimumaArasapi AloginaA'i Hat~aY wa<ino lamo yakuno bi$akolK mutoqanK",
+      "whisper_improved": "ونصحت الدراسة بممارسة الغناء حتى وإن لم يكن بشكل متقن",
+      "gemini_clean": "ونصحت الدراسة بممارسة الغناء حتى وإن لم يكن بشكل متقن",
+      "gemini_clean_judge": "ونصح الخبراء بضرورة تطبيق التدريبات على الذاكرة بشكل منتظم.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0096.wav",
+      "ref": "wa>ak~adato >an~a AloginaA'a Dimona majomuwEaAtK lahu faE~aAliy~apN >ako^aru mina AloginaA'i Alomunofaridi",
+      "whisper_improved": "وأكدت أن الغناء ضمن مجموعات له فعالية أكثر من الغناء المنفرد",
+      "gemini_clean": "وأكدت أن الغناء ضمن مجموعات له فعالية أكثر من الغناء المنفرد",
+      "gemini_clean_judge": "أكدت أن الغناء ضمن مجموعات له فعالية أكثر من الغناء المنفرد.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0097.wav",
+      "ref": "yuEoraDu Aloqiy^Aru AlokahorabaA}iy~u Al~a*iy Eazafa Ealayohi juwno liynuwn EinodamaA kaAna EuDowAF - fiy firoqapi Alobiytiloz - >ugoniyapa biybarobaAk raAyotar - fiy maloEabi |biy ruwdo - EaAma >alofK watisoEi mi}apK wasit~apK wasut~uwna - lilobayoEi fiy mazaAdK Ealaniy~K Aloyawoma Alo>aHada - lilo>a$oyaA'i Alt~a*okaAriy~api AlomutaEal~iqapi bimuwsiyqaY Alr~uwk - |nod ruwlo - fiy lanoduno",
+      "whisper_improved": "يعرض القيثار الكهربائي الذي عزف عليه جون لينون عندما كان عضواً في فرقة البيتلز أغنية بيبر باك رايتر في ملعب أبي رود عام 1966 للبيع في مزاد علني اليوم الأحد للأشياء التذكارية المتعلقة بموسيقى الروك أند رول في لندن.",
+      "gemini_clean": "يعرض القيثار الكهربائي الذي عزف عليه جون لينون عندما كان عضوا في فرقة البيتلز أغنية بيبر باك رايتر في ملعب ابي رود عام ألف وتسعمئة وستة وستين للبيع في مزاد علني اليوم الأحد للأشياء التذكارية المتعلقة بموسيقى الروك اند رول في لندن",
+      "gemini_clean_judge": "يُعرض القيثار الكهربائي الذي عزف عليه جون لينون عندما كان عضواً في فرقة البيتلز أغنية \"بيبر باك رايتر\" في استوديوهات آبي رود عام ألف وتسعمئة وستة وستين، للبيع في مزاد علني اليوم الأحد للأشياء التذكارية المتعلقة بموسيقى الروك آند رول في لندن.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0098.wav",
+      "ref": "wahuwa mino nawoEi joriyto$o sit~apu |lAfK wami}apN waEi$orwna $iyto - >atokiynozo naA$ofiylo",
+      "whisper_improved": "وهو من نوع جريتش 6120 شيت أتكينز ناشفل",
+      "gemini_clean": "وهو من نوع جريتش ستة آلاف ومئة وعشرين شيت أتكينز ناشفل",
+      "gemini_clean_judge": "وهو من نوع جريتش 6120 شيت أتكينز ناشفل.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0099.wav",
+      "ref": "bi>an~ahu waAHidN mino >aham~i |laAti Aloqiy^Ari AloxaAS~api bijuwn liynuwno - Al~atiy tuToraHu fiy Als~uwqi fiy Alo>aEowaAmi Al^~alaA^iyna AlomaADiy~api",
+      "whisper_improved": "بأنه واحد من أهم آلات القيثار الخاصة بجون لينون التي تطرح في السوق في الأعوام الثلاثين الماضيات",
+      "gemini_clean": "بأنه واحد من أهم آلات القيثار الخاصة بجون لينون التي تطرح في السوق في الأعوام الثلاثين الماضية",
+      "gemini_clean_judge": "بأنه واحد من أهم آلات القيثارة الخاصة بجون لينون التي تُطرح في السوق في الأعوام الثلاثين الماضية.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0100.wav",
+      "ref": "wahuwa >an~a AloHayaApa Alz~awojiy~apa tusohimu fiy AlomuHaAfaZapi EalaY DagoTi damK saliymK - waEalaY Alo>axaS~i Einoda Alr~ijaAli",
+      "whisper_improved": "وهو أن الحياة الزوجية تسهم في المحافظة على ضغط دم سليم وعلى الأخص عند الرجال",
+      "gemini_clean": "وهو أن الحياة الزوجية تسهم في المحافظة على ضغط دم سليم وعلى الأخص عند الرجال",
+      "gemini_clean_judge": "وهو أن الحياة الزوجية تسهم في المحافظة على ضغط الدم السليم، وعلى الأخص عند الرجال.",
+      "nemo_canary": null
+    },
+    {
+      "file": "ARA NORM  0101.wav",
+      "ref": "tahodifu ha*ihi Alomadorasapu <ilaY taEoziyzi Hub~i Alo<isolaAmi waHub~i AlowaTani ladaY Alt~alaAmiy*i",
+      "whisper_improved": "تهدف هذه المدرسة إلى تعزيز حب الإسلام وحب الوطن لدى التلاميذ.",
+      "gemini_clean": "تهدف هذه المدرسة إلى تعزيز حب الإسلام وحب الوطن لدى التلاميذ",
+      "gemini_clean_judge": "تهدف هذه المدرسة إلى تعزيز حب الإسلام وحب الوطن لدى التلاميذ.",
+      "nemo_canary": null
+    }
+  ],
+  "num_files": 100
+}
